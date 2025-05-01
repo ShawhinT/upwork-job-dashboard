@@ -1,2 +1,6 @@
 # upwork-job-dashboard
-Code for Streamlit dashboard summarizing AI jobs on Upwork.
+Vibe-coded Streamlit dashboard summarizing AI jobs from Upwork.
+
+Links
+- Video link: 
+- Demo: 
