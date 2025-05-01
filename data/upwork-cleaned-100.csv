@@ -1,0 +1,2460 @@
+job_title,job_url,search_term,pay_type,hourly_rate_min,hourly_rate_max,est_hours_per_week,est_duration_weeks,fixed_price,estimated_total_pay,job_description,skill_1,skill_2,skill_3,skill_4,skill_6,skill_7,skill_8,skill_9,skill_10,skill_11,skill_12,skill_13
+"Automation Specialist (Zapier, ChatGPT API, Claude ) for Content Distribution System",https://www.upwork.com/jobs/Automation-Specialist-Zapier-ChatGPT-API-Claude-span-class-highlight-span-for-Content-Distribution-System_~021916617367621477989/?referrer_url_path=/nx/search/jobs/,AI,Hourly,75.0,100.0,30.0,8.0,,21000.0,"I’m looking for an experienced automation expert to help set up a scalable content distribution system across social media channels. You must be highly proficient with Zapier, APIs (Open, Anthropic Claude), and basic integrations with tools like Buffer, Google Sheets, RSS, and social platforms (Twitter, LinkedIn, Instagram).
+
+Responsibilities:
+
+Build Zapier workflows to automate content posting, repurposing, and tracking
+
+Set up API integrations (ChatGPT, Claude) for content generation and formatting
+
+Link Google Sheets / RSS / Webhooks where necessary for structured input/output
+
+Create basic documentation so a VA can manage the system post-setup
+
+Suggest improvements to workflow efficiency and scalability
+
+Requirements:
+
+Proven experience building advanced Zapier workflows (show examples)
+
+Strong understanding of APIs (especially ChatGPT and Claude)
+
+Experience with social media scheduling/posting tools (Buffer, Later, Hootsuite)
+
+Ability to build simple no-code/low-code solutions
+
+Clear communicator who can document their work for handoff to others
+
+Bonus Skills:
+
+Basic knowledge of content repurposing and social media growth strategies
+
+Light technical skills (like basic scripting or Make.com familiarity)
+
+Project Scope:
+
+1-time project to design and build the system (~15-25 hours)
+
+Potential for ongoing maintenance/support afterward if a good fit
+
+When Applying, Please Answer:
+
+What similar automation projects have you done before? (show examples)
+
+Are you comfortable setting up API calls with no-code tools?
+
+How would you structure a scalable system for cross-platform content distribution?",Artificial Intelligence,Automation,Api,Zapier,,,,,,,,
+"AWS Expert Needed to Deploy a RAG Chatbot (Bedrock, OpenSearch, Lambda)",https://www.upwork.com/jobs/AWS-Expert-Needed-Deploy-RAG-Chatbot-Bedrock-OpenSearch-Lambda_~021916474878795263856/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,4.0,,9300.0,"We are looking for an experienced AWS solutions engineer to help us deploy a Retrieval-Augmented Generation (RAG) chatbot inside our AWS environment.
+The chatbot is fully specced out and has a complete starter codebase — we now need help setting it up and operationalizing it on AWS.
+
+The chatbot is similar in behavior to a Custom GPT we've already built (Heather.) and is based on:
+
+-3 large PDFs (~100-300 pages each)
+~500,000 text message conversations
+-A friendly, supportive, and expert nutrition tone
+
+Scope of Work:
+
+1. Set up Amazon OpenSearch with Vector Search enabled
+-Create index, mappings (knn_vector), and configure secure access
+
+2. Set up Amazon Bedrock
+-Provision model access (Anthropic Claude, Amazon Titan, or Mistral)
+
+3. Deploy AWS Lambda
+-Configure environment variables
+-Deploy provided Python backend (Lambda function + helper files)
+
+4. Set up Amazon API Gateway
+-Create an HTTP API endpoint for the chatbot
+-Connect it to Lambda
+-Enable CORS
+
+5. Set up IAM Roles and Permissions
+-Lambda permissions to Bedrock and OpenSearch
+
+6. Assist with embedding the knowledge base
+-(optional) Help run scripts to generate embeddings and upload to OpenSearch
+
+7. Ensure everything is working end-to-end:
+-User sends query → system retrieves relevant data → Bedrock generates friendly reply → returns to user
+
+Deliverables:
+
+1. Working RAG chatbot API endpoint on AWS
+2. Tested embedding + retrieval pipeline
+3. Deployment instructions (short notes)
+4. (Optional) Minor updates to the Lambda if needed based on testing
+
+Ideal Candidate:
+-Deep experience with AWS OpenSearch, Bedrock, Lambda, API Gateway
+-Familiar with vector search, embeddings, LLM orchestration
+-Strong Python skills (Lambda functions)
+-Comfortable setting up secure AWS environments
+-Good communicator who can move quickly and independently
+
+Other Details:
+
+-We have a fully organized project folder ready (.zip with backend/scripts/data)
+-We anticipate this project can be completed within 10-20 hours
+-Future work may be available (adding user accounts, scaling chatbot, building front-end)
+
+When applying, please briefly answer:
+
+What is your experience setting up OpenSearch Vector Search and Bedrock on AWS?
+
+Have you built any RAG (Retrieval-Augmented Generation) chatbots before?
+
+What is your availability over the next 1-2 weeks?",Artificial Intelligence,Amazon Web Services,Aws Lambda,Python,Retrieval Augmented Generation,,,,,,,
+Build Power Automate + Open Workflow to Convert Affiliate Emails into Radio-Ready Scripts,https://www.upwork.com/jobs/Build-Power-Automate-Open-span-class-highlight-span-Workflow-Convert-Affiliate-Emails-into-Radio-Ready-Scripts_~021916176876454511874/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,750.0,750.0,"I'm working with 20+ affiliate radio stations who each send me weekly email updates. I need a fully automated system that: Will look at the emails, pull station ID, Slogan, and update info from the emails. Rewrite the updates into short ready-to-read scripts and assign and increment am ID #to each update. Once a week or on demand, pull al the updates into a single studio ready doc that's ready to record.
+
+💼 What I Need Built:
+Email Parsing
+
+Monitor a dedicated Outlook inbox or folder
+
+Extract affiliate update content from the body of incoming emails
+
+Support multiple updates in a single email (parse and handle each one separately)
+
+Affiliate Lookup & Logic
+
+Use sender email address to look up:
+
+Call Letters
+
+Station Slogan
+
+Last used Item Number
+
+Stored in an Excel file hosted on OneDrive
+
+Auto-Increment & Update Tracking
+
+Auto-increment the item number per affiliate
+
+If 3 updates come in a single email, assign them item numbers sequentially
+
+ Text Rewrite
+
+Feed each update (along with the call letters, slogan, and item number) into Open (ChatGPT or Azure Open)
+
+ rewrites the update into a professional, 15-second radio-ready script using a prompt I’ll provide
+
+Formatted Output
+
+Append the finished, -polished scripts into a Microsoft Word document for the week
+
+Format:
+
+arduino
+Copy
+Item 035  
+KXYZ – Denver’s Rock Station  
+[Rewritten script text]
+Data Update
+
+Update the Excel file to reflect the new item number after processing each update
+
+✅ Additional Notes:
+Emails will come in a semi-consistent format (we’ll guide affiliates).
+
+I have a clear prompt, Excel structure, and flow design.
+
+Bonus if you can build in light error handling (e.g., malformed emails).",Artificial Intelligence,Microsoft Power Automate,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Openai Api,,
+Development for Sports Connection Platform,https://www.upwork.com/jobs/span-class-highlight-span-Development-for-Sports-Connection-Platform_~021916071793668346764/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,10000.0,10000.0,"Project Title: -Driven Sports Mentorship Platform​
+Overview: We are developing an innovative platform that leverages   to provide personalized mentorship and performance tracking for youth athletes. The system aims to connect athletes, trainers, and parents through a cohesive digital ecosystem, enhancing athletic development and engagement.​
+Key Objectives:
+Develop a custom  engine capable of delivering tailored training programs and feedback.
+Create a responsive web and mobile application for user interaction.
+Implement secure data management practices to protect user information.​
+Responsibilities:
+Design and train machine learning models for performance analysis.
+Develop intuitive user interfaces for web and mobile platforms.
+Integrate  functionalities seamlessly into the application.
+Ensure compliance with data privacy regulations.​
+Gist, Stack Overflow, GitHub, React, Javascript, .css, Tailwind, Typescript, Firebase, Cloud Functions, Render, Custom Search and Match Engine  Model, Full DeepSeek 685B Parameter Model - or Required Skills:
+Proficiency in Python and experience with ML frameworks like TensorFlow or PyTorch.
+Experience in developing web applications using React or Angular.
+Knowledge of mobile app development using Flutter or React Native.
+Familiarity with cloud services such as AWS or Google Cloud.
+Experience with version control systems like Git and platforms like GitHub.
+Understanding of CI/CD pipelines and deployment using Firebase Hosting.​
+ Engagement Terms: This is a part-time opportunity with compensation structured as a combination of limited cash and equity ownership. Ideal for professionals passionate about sports and  innovation.​
+Application Process: Interested candidates should provide a portfolio of relevant projects and a brief proposal outlining their approach to developing the  components of the platform.​",Artificial Intelligence,Python,Api,Javascript,,Artificial Intelligence,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Trading Automation System Development,https://www.upwork.com/jobs/span-class-highlight-span-Trading-Automation-System-Development_~021915839010232550094/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,3800.0,3800.0,"Trading Automation System (Python, Schwab API, Options Trading)
+
+We're a nonprofit organization with a funded Schwab account, looking to build a custom -powered trading automation system that integrates with Schwab API (formerly TD Ameritrade) and leverages ThinkOrSwim (TOS) for monitoring.
+
+🧠 Our Strategy:
+Trade SPY and value stocks with large daily ranges.
+Use ODE-style entry logic around support, resistance, and Anchored VWAP.
+Trade options strategies (vertical spreads, straddles, etc.) in real time.
+Deploy  decision engine to backtest, trade, and adapt intelligently.
+💻 Your Role:
+We need you to help design, develop, and deploy a Python-based system that:
+
+Connects to Schwab API (OAuth2, accounts, equities + options order routing).
+Implements live trade engine with scheduling and risk controls.
+Pulls real-time and historical data (Schwab API + external sources like Polygon).
+Computes AVWAP, support/resistance zones.
+Backtests strategies using backtrader or vectorbt.
+Integrates lightweight  model for trade decisions.
+(Optional but ideal) Provides GUI for manual overrides or trade visualization.
+Handles options multi-leg strategies and expiration logic.
+✅ Requirements:
+Proven experience with algo trading bots in Python.
+Strong knowledge of broker APIs (Schwab, TD, Alpaca, IBKR, etc.).
+Familiar with OAuth2 token refresh, scheduling, and secure credential handling.
+Understanding of options trading strategies and real-time data structures.
+Experience with /ML models (XGBoost, RL, etc.).
+Prefer experience with backtesting libraries (backtrader, vectorbt).
+🔐 Bonus:
+Know AVWAP, RSI, Bollinger, or support/resistance logic.
+Experience with FastAPI, Flask, or dashboard frameworks (Plotly Dash).
+Familiar with ThinkOrSwim alerts or scripting.
+📍Logistics:
+Remote, flexible work hours.
+Budget available for MVP + ongoing extensions.
+This is mission-driven — we're funding innovation within a nonprofit research setup.
+To Apply:
+Please share:
+
+Examples of algo trading systems you've built.
+Brokerages/APIs you've worked with.
+Your GitHub (if available).
+Your rate and availability.",Artificial Intelligence,Api,Python,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Remote Debug & Optimization N8N + Vector,https://www.upwork.com/jobs/Remote-Debug-Optimization-N8N-Vector_~021915820368578780605/?referrer_url_path=/nx/search/jobs/,AI,Hourly,85.0,125.0,30.0,4.0,,12600.0,"Freelance / Contract | Remote | Start ASAP
+
+Sunday Market Media is seeking a sharp  workflow engineer or LLM modeling expert with strong n8n experience to help us debug, optimize, and scale our vector-enhanced automation flows.
+
+We run a self-hosted n8n instance integrated with:
+	•	PGVector (PostgreSQL vector storage)
+	•	LLMs (Open + Local models like Mistral)
+	•	Dynamic embeddings + RAG querying
+	•	Internal business knowledge base enrichment
+
+🔧 Responsibilities
+	•	Debug and optimize n8n workflows involving  agents and vector memory
+	•	Improve semantic search / term lookups via PGVector
+	•	Ensure accurate and performant LLM responses across time-aware flows
+	•	Help configure system prompts, embeddings, and metadata mapping
+
+✅ Requirements
+	•	Solid understanding of LLMs, embeddings, and retrieval workflows
+	•	Experience with n8n, including Function nodes, HTTP/ Agents, and Postgres integrations
+	•	Proficiency with PGVector and managing vector data
+	•	Comfortable with prompt engineering and  response debugging
+
+💡 Bonus Points
+	•	Experience fine-tuning or self-hosting models (Mistral, GPT-J, etc.)
+	•	Familiarity with embedding APIs (Open, Hugging Face)
+	•	Knowledge of vector hygiene, dimensionality mismatches, and memory management",Artificial Intelligence,Ubuntu,Macos,Javascript,Linux,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Agent Development,,
+"Job Opportunity: IT /  Developer & Software Lead (Full-Time, Build + Grow with Us)",https://www.upwork.com/jobs/Job-Opportunity-span-class-highlight-span-Developer-amp-Software-Lead-Full-Time-Build-Grow-with_~021915782381408429025/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,24.0,,55800.0,"We are seeking a dedicated, experienced IT/ Developer who can design, build, oversee, and continuously improve our custom healthcare software platform. You’ll work directly with the executive team to bring a bold vision to life.
+
+You must be motivated, independent, hungry to succeed, and willing to own your role in a fast-paced startup environment. The right person will have the opportunity for long-term leadership, growth, and major financial rewards as we scale. Key Responsibilities
+
+Architect, design, and build a secure, scalable, HIPAA-compliant software platform.
+
+Oversee day-to-day functionality, performance, and security of the system.
+Develop and manage integrations with  models, third-party APIs, and external platforms.
+
+Implement best practices for software development, testing, compliance, and version control.
+Identify and troubleshoot issues quickly, keeping downtime to an absolute minimum.
+
+Stay proactive about upgrades, new tools,  enhancements, and evolving needs.
+Manage potential future developers or tech contractors as the company grows.
+
+Communicate regularly with leadership — providing updates, insights, and strategic suggestions.
+What We're Looking For
+
+3+ years professional experience in software development, IT infrastructure, and/or  integration.
+Strong knowledge of modern programming languages (Python, JavaScript, Node.js, SQL, etc.)
+Hands-on experience with  frameworks (TensorFlow, PyTorch, Open, etc.) preferred.
+
+Solid understanding of cloud computing (AWS, Azure, or GCP) and scalable backend systems.
+Commitment to HIPAA compliance and healthcare tech security standards.
+
+Problem-solving mindset with a ""find a way"" attitude — not someone who needs to be micromanaged.
+Excellent organization, communication, and time management skills.
+Entrepreneurial spirit — you’re excited to build and scale something from the ground up.
+
+Bonus Skills (Not Required but Highly Valued)
+
+Experience in healthcare SaaS, compliance platforms, or telemedicine solutions.
+Project management skills or formal Agile/Scrum experience.
+UI/UX development experience.
+Startup, early-stage tech, or SaaS background.",Artificial Intelligence,Google Analytics,Javascript,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Agent Development,Ai Development,
+Developer Needed for MVP Build – Voice Tech +  + API Integration,https://www.upwork.com/jobs/Developer-Needed-for-MVP-Build-Voice-Tech-span-class-highlight-span-API-Integration_~021915561470295472645/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,750.0,750.0,"I'm looking for a skilled developer or small dev team to help build the MVP of a voice-driven automation tool. The project involves integrating cutting-edge tools for voice interaction, transcription, and -powered analysis into a seamless workflow.
+
+You’ll be working with systems like Vapi., ElevenLabs, Open, and Whisper, orchestrated via Zapier and/or a lightweight backend. You'll need to build a system that initiates a voice call, collects and transcribes a user's spoken responses, and processes those responses with . The systems described can be subject to change based on recommendations. 
+
+Tech Stack & Requirements:
+
+1. Voice Output: Integrate with ElevenLabs to generate natural-sounding audio prompts
+
+2. Voice Input: Use Vapi. (or similar) to handle incoming audio and call flow
+
+3. Speech-to-Text: Transcribe spoken responses using Whisper (local or API-based)
+
+4.  Processing: Use Open's GPT-4 (or equivalent LLM) to analyze transcribed input and return structured output
+
+5. Workflow Automation: Build integrations with Zapier or similar tools for orchestration. 
+
+6. Backend Support: Develop a simple backend to manage data flow, logging, and API authentication 
+
+Ideal Candidate:
+
+1. Has hands-on experience with at least two of the listed tools
+
+2. Is comfortable with API integrations and handling asynchronous workflows
+
+3. Has worked on voice tech, /NLP projects, or low-code automation
+
+4. Understands data security, webhooks, and token-based auth
+
+5. Communicates clearly, works efficiently, and respects confidential IP",Artificial Intelligence,Api,Api Integration,Zapier,Whisper Api,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Openai Api,,
+Python Developer Needed for  Healthcare Tool Development - Collaborative Dev Process,https://www.upwork.com/jobs/Python-Developer-Needed-for-span-class-highlight-span-Healthcare-Tool-Development-Collaborative-Dev-Process_~021915557790262304681/?referrer_url_path=/nx/search/jobs/,AI,Hourly,20.0,35.0,,24.0,,19800.0,"I am based in the US on PST
+Seeking a skilled Python developer to assist in building an  tool aimed at providing recommendations based on specific healthcare research related to patient care. The ideal candidate will have a strong interest in  and machine learning 
+** Must be willing to pass code back to me in real time,**
+
+As a starting task
+1. Pull the correct matching drugs from a database based on a series of questions asked of a patient
+2. Match the patietnt to a clinical trial based on the diagnosis and the location.
+Note the diagnosis may not cleanly match so some fuzzy matching may be required.
+3. Acquire the lead - name, email, phone
+4. Deploy bot to the web",Artificial Intelligence,Python,Api,Machine Learning,,Artificial Intelligence,,,,Artificial Intelligence,,
+Experienced Software Engineer for -Powered Support Features,https://www.upwork.com/jobs/Experienced-Software-Engineer-for-span-class-highlight-span-Powered-Support-Features_~021915539566038361701/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,85.0,30.0,8.0,,18000.0,"We’re looking for an experienced Software Engineer to help design and implement -powered features for our support teams. The ideal candidate has a strong background in building  tools—such as chatbots and virtual assistants—leveraging Amazon Connect, Lex and other AWS services.
+
+In this role, you’ll collaborate directly with our support leadership and engineering teams to define requirements, develop the project roadmap, and deploy solutions. Experience working with Salesforce is a strong plus.",Artificial Intelligence,Python,Machine Learning,Amazon Web Services,,Artificial Intelligence,,,,Artificial Intelligence,,
+bot developer,https://www.upwork.com/jobs/span-class-highlight-span-bot-developer_~021915502550928074341/?referrer_url_path=/nx/search/jobs/,AI,Hourly,30.0,59.0,30.0,4.0,,5340.0,I am looking for someone who can create a bot based on my intellectual property.,,Graphic Design,Copywriting,Email Marketing,Brand Strategy,,,,,,,
+Agent Creator,https://www.upwork.com/jobs/span-class-highlight-span-Agent-Creator_~021915460506689751405/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,205.0,30.0,4.0,,16200.0,I am looking for someone experienced in creating unique  agents that can be given tasks to execute by voice. We’d like to have a system setup and built that we can manage. Part of this contract will be teaching the user how to manage after the system is built.,Artificial Intelligence,Lead Generation,Market Research,,,,,,,Artificial Intelligence,,
+Speaker Needed for Virtual Event on Workplace Innovation,https://www.upwork.com/jobs/span-class-highlight-span-Speaker-Needed-for-Virtual-Event-Workplace-Innovation_~021915441172953188717/?referrer_url_path=/nx/search/jobs/,AI,Hourly,100.0,500.0,30.0,4.0,,36000.0,"We are seeking an engaging  speaker for an upcoming virtual event focused on leveraging  in the workplace. The speaker will share insights on how  tools can enhance productivity, streamline processes, and foster innovation. Candidates should have a strong understanding of  applications and excellent presentation skills to captivate a diverse audience. If you're passionate about educating others and have experience speaking at events or webinars, we want to hear from you!",Artificial Intelligence,Content Writing,,Communications,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,,
+Web Developer for Simple -Powered Web Page,https://www.upwork.com/jobs/Web-Developer-for-Simple-span-class-highlight-span-Powered-Web-Page_~021915439918734613449/?referrer_url_path=/nx/search/jobs/,AI,Hourly,43.0,70.0,30.0,4.0,,6780.0,"We are looking for a front-end developer to build a simple, clean web page that connects with our existing  backend. The page will display results from the  service, accept basic user input (like text or image upload), and show responses in a clear and responsive layout.
+
+Requirements:
+•    Strong experience with React or Vue.js
+•    Able to connect to APIs and handle async data
+•    Clean, responsive UI design
+•    Basic understanding of  integration or experience working with  APIs
+•    Good communication and can deliver quickly and efficiently
+
+Bonus if you have:
+•    Backend experience (Node.js, Python, etc.)
+•    Previous work with  tools or ML projects
+
+If this project excites you, we’d love to hear from you. We look forward to connecting with passionate developers who are ready to make an impact.",Artificial Intelligence,React,Vue.Js,Node.Js,Python,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Agent Builder for Digital Marketing Agency,https://www.upwork.com/jobs/span-class-highlight-span-Agent-Builder-for-Digital-Marketing-Agency_~021915423193918053321/?referrer_url_path=/nx/search/jobs/,AI,Hourly,30.0,50.0,30.0,8.0,,9600.0,"We are a full service digital marketing agency looking to integrate  agents into our company. We are in need of someone to design and deploy agents for content creation. The ideal person should be familiar with make, N8N and other  softwares necessary to build what we are seeking.",Artificial Intelligence,,,,,Artificial Intelligence,,,,Ai Agent Development,,
+Prompt Engineer Needed to condense prompts while keeping same impact.,https://www.upwork.com/jobs/Prompt-Engineer-Needed-condense-prompts-while-keeping-same-impact_~021915401152669671948/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,100.0,100.0,I have a number of pages of prompts that help a user discover their core motivations while also discovering Myers Briggs and Ennegram scores and can find out Strengths finder.  The goal is to have Chat GPT know the user very well and then offer very detailed feedback and moving forward to achieve goals.  Currently my prompts are good but a little repetitive and can get long.  I would like to have these paired down a bit.  i have no idea how long this will take but my guess is somewhere between 5-10 hours even with .  :-)   In total is it about 280 questions which I don't think it needs to be that long.  As Chat GPT asks for clarification on the multiple choice questions it can get long.,Artificial Intelligence,,,,,,,,,Ai App Development,Generative Ai Prompt Engineering,
+Analytics SaaS Product Design -  and Sentiment Analysis Experience Required,https://www.upwork.com/jobs/Analytics-SaaS-Product-Design-span-class-highlight-span-and-Sentiment-Analysis-Experience-Required_~021915247871641849943/?referrer_url_path=/nx/search/jobs/,AI,Hourly,35.0,50.0,30.0,8.0,,10200.0,"HireInfluence is an award-winning agency, serving the most established brands in the world since 2011.  We are seeking a highly skilled and creative Analytics Designer/Project Manager to lead the UI/UX design of a SaaS sentiment analysis solution.  
+
+The project is fairly straightforward and the agency owner already has the concept structure identified.  We anticipate this phase of the project to be completed within 30 days. Opportunity for advancement based on experience and results.
+
+REQUIRED FOR APPLICANTS:  Must have firm understanding of  tech design, sentiment analysis reporting, social media marketing.
+
+-  Hired Designer will also serve as Project Manager when development phase begins - bridging the gap between the agency owner and a first-class tech dev team. 
+
+-  Hired Designer/PM will be responsible for taking the product from ideation through wireframing and Figma design processes. 
+
+-  Hired Designer/PM will incorporate trending/innovative technologies and best practice to create a valued solution within the social media marketing space.
+
+- Hired Designer/PM will maintain a strict and efficiency timeline to ensure completed deadlines for this project phase are met without delay.
+
+NOTE:  Must provide portfolio of comparable projects or relatable experience to be considered for this opportunity.",Artificial Intelligence,Project Management,Graphic Design,Social Media Marketing,,,,,,Artificial Intelligence,,
+Build an -Driven Scheduling Bot for Thumbtack + Google Calendar (Round Robin Sales Assignments),https://www.upwork.com/jobs/Build-span-class-highlight-span-Driven-Scheduling-Bot-for-Thumbtack-Google-Calendar-Round-Robin-Sales-Assignments_~021915147376959137949/?referrer_url_path=/nx/search/jobs/,AI,Hourly,45.0,70.0,30.0,8.0,,13800.0,"We’re looking for a developer to build an automation bot that responds to leads on Thumbtack and schedules appointments based on round-robin logic across a small sales team using Google Calendar.
+
+We want this to run 24/7 on a cloud VPS (like DigitalOcean) and handle all communication and scheduling automatically.
+
+What the Bot Needs to Do:
+Log into Thumbtack
+
+Monitor incoming leads/messages
+
+Parse intent (e.g., scheduling request)
+
+-Generated or Template-Based Replies
+
+Use  (Open API preferred) or simple logic to generate responses
+
+Offer available time slots to the customer
+
+Round Robin Scheduling
+
+Maintain a rotating queue of salespeople (Google Sheet or CSV)
+
+Assign each lead to the next available salesperson
+
+Google Calendar Integration
+
+Check that salesperson’s availability
+
+Schedule confirmed appointments
+
+Optionally send confirmations or reminders
+
+Deploy to a VPS
+
+Set up to run continuously (via cron, systemd, etc.)
+
+Provide logging and error handling
+
+
+Deliverables:
+Fully working script with source code
+
+README or setup guide
+
+Configurable calendar + round robin system (CSV or Google Sheet)
+
+Ongoing support (optional, paid separately)",Artificial Intelligence,Python,Selenium,Google Calendar Api,,Artificial Intelligence,Artificial Intelligence,,,,,
+Agent Developer – Web Scraping,https://www.upwork.com/jobs/span-class-highlight-span-Agent-Developer-Web-Scraping_~021915113135397212247/?referrer_url_path=/nx/search/jobs/,AI,Hourly,50.0,82.0,,24.0,,47520.0,"PBI Commercial, a fast-moving construction and restoration company, is seeking an experienced  Agent Developer to build and maintain an intelligent web-scraping solution that scans up to 80 targeted websites for Construction, RAM, and Restoration bid opportunities.
+
+This  Agent should be able to:
+-Visit and navigate diverse websites (government portals, university procurement sites, GC bid boards, etc.)
+-Identify relevant bid opportunities in our target service categories
+-Extract key details such as project name, location, due dates, and requirements
+-Feed this information into a structured database or trigger alerts (email/CRM)
+
+Responsibilities:
+-Build and train an  Agent or intelligent scraping bot for structured/unstructured sites
+-Create rules to prioritize and filter opportunities relevant to our services
+-Design workflows for frequent updates or scheduled scrapes
+-Ensure resilience against website changes and anti-bot measures
+-Provide export or API-compatible formats (CSV, Zoho CRM sync, or similar)
+
+Requirements:
+-Proven experience with  or automated web scraping tools (BeautifulSoup, Playwright, Selenium, LangChain, GPT-4 with function calling, etc.)
+-Ability to extract data from both structured and unstructured HTML sources
+-Experience handling login-based portals or CAPTCHA workarounds
+-Strong skills in Python, JavaScript, or other scraping frameworks
+-Familiarity with construction bidding/procurement sites is a plus
+
+Deliverables:
+-One  Agent or tool that can handle up to 80 URLs (starting small and scaling up)
+-Dashboard or report of collected data
+-Documentation and knowledge transfer",Artificial Intelligence,Data Extraction,Web Crawling,Python,Data Mining,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Platform Build Program for Engineers & Electricians,https://www.upwork.com/jobs/Platform-Build-Program-for-Engineers-Electricians_~021915121110106508800/?referrer_url_path=/nx/search/jobs/,AI,Hourly,30.0,40.0,30.0,18.0,,18900.0,"🛠 Project Description: Build “WattWorks” – A Web Platform for Electricians & Engineers (Profiles, Marketplace, CRM,  Tools)
+We’re building WattWorks — a smart, modular platform designed for electricians, engineers, and skilled tradespeople. The platform will serve as an all-in-one digital hub for:
+
+Verified skill-based profiles
+
+Service and tool marketplace
+
+Job board with direct hiring
+
+Built-in CRM tools and proposals
+
+Training + licensing resources
+
+-powered assistants for business tasks
+
+We are seeking a dedicated full-time web developer (or small team) to lead development and deliver a working MVP within 6–8 weeks, with the opportunity to stay on through future phases (CRM, , mobile, and more).
+
+🎯 Core Modules to Build (Phase 1):
+Pro Directory (profiles with cert uploads + filters)
+
+Job Board (post/apply, -matching by skill/location)
+
+Service & Tool Marketplace (listings + Stripe/PayPal checkout)
+
+Basic CRM Toolkit (proposal generator, calendar sync, invoicing)
+
+User Login + Role Access (Electrician, Engineer, Client)
+
+Admin Panel (moderation, verification management)
+
+🔧 Tech Stack (Suggested):
+React.js / Next.js or Bubble.io (if no-code MVP preferred)
+
+Firebase or Supabase (auth, database)
+
+Stripe / PayPal (checkout flow)
+
+Airtable / Jetboost (directory logic if no-code)
+
+Open (Phase 2: proposal writer, pricing assistant)
+
+TailwindCSS or clean UI components (we provide style guide)
+
+🧠 Optional Phase 2+ Features (Bonus Skills):
+ integrations for proposals, code compliance chatbot, NEC forms
+
+Tiered badge system for verified users
+
+Forum/community hub for trades collaboration
+
+Mobile-responsive design & future app compatibility
+
+📅 Timeline & Commitment:
+Phase 1 MVP: ~6–8 weeks full-time (30–40 hrs/week)
+
+Full build timeline: 3.5–4 months with future milestones
+
+Looking for weekly updates, milestone tracking, and responsive communication
+
+🧾 To Apply, Please Include:
+Links to relevant SaaS/marketplace platforms you’ve built
+
+Your preferred tech stack and dev approach
+
+Time availability (weekly hours you can commit)
+
+Hourly or fixed rate quote for the MVP
+
+Any team members you work with (if not solo)",Artificial Intelligence,Web Development,Database Management System,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Survey: Share your thoughts on using  agents in your work as a Payroll and Timekeeping Clerk,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Payroll-and-Timekeeping-Clerk_~021915073564438426909/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Payroll and Timekeeping Clerks or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Fullstack Software Engineer - Cursor Expert,https://www.upwork.com/jobs/Fullstack-Software-Engineer-Cursor-Expert_~021915081527518800029/?referrer_url_path=/nx/search/jobs/,AI,Hourly,80.0,150.0,30.0,24.0,,82800.0,"🚀 Fullstack Engineer (Cursor Expert) |  Venture Studio
+
+We’re Mahway, a venture builder launching -native and -resistant startups.
+
+We’re looking for a fullstack software engineer/consultant who lives and breathes  to help us:
+	•	Set best practices for  + engineering
+	•	Coach offshore teams (especially in Cursor)
+	•	Support technical interviews + assessments
+
+You’ll help shape the platforms powering multiple startups. If you’re a Cursor expert and excited by fast-moving, high-impact work—we want to meet you.
+
+Let’s chat.",Artificial Intelligence,React,Node.Js,Javascript,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai-Generated Code,Ai Development,
+Solutions Consultant,https://www.upwork.com/jobs/span-class-highlight-span-Solutions-Consultant_~021915034155676595485/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,130.0,30.0,24.0,,72000.0,"We are Topflight Apps! An innovative group of product strategists, designers, and developers. Together, we create custom app solutions for startups and mid-sized businesses, and what we do best is tackle some of the biggest problems in healthcare, fintech, blockchain technology, and on-demand.
+
+We are seeking a skilled  Solutions Consultant to join our team. This role involves designing, architecting, and implementing -powered solutions that transform our clients' businesses. The ideal candidate will have extensive experience with Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and modern  frameworks, combined with strong technical sales and consulting capabilities. This is an ad-hoc (as-needed) job opportunity.
+
+Your Responsibilities Include:
+- Interface with sales leads and clients to provide technical consulting on  solutions, helping translate business challenges into concrete implementation plans.
+- Design and implement  architectures using modern frameworks like LangChain to create sophisticated language model applications and intelligent systems.
+- Develop and maintain  solutions utilizing current best practices in prompt engineering, retrieval systems, and vector databases to ensure optimal performance and reliability.
+- Collaborate with product managers, designers, and developers to analyze requirements and create comprehensive technical specifications.
+- Support the entire solution lifecycle from initial discovery workshops through deployment and optimization.
+- Troubleshoot and resolve  implementation challenges, providing technical guidance to stakeholders.
+- Stay current with rapid developments in  technology, particularly in the LLM space, and incorporate new capabilities into solution designs.
+
+The key characteristics we're looking for are:
+- Proven technical expertise in /ML platforms, with strong emphasis on Large Language Models and their enterprise applications. Experience with Claude, GPT, and other leading models is essential.
+- Extensive experience with modern  development frameworks such as LangChain, LlamaIndex, and vector databases (e.g., Chroma, Pinecone).
+- Demonstrated proficiency in Python and relevant /ML libraries (TensorFlow, PyTorch, Scikit-learn, etc.).
+- In-depth knowledge of RAG architectures, prompt engineering, and  deployment patterns.
+- Experience with  infrastructure and MLOps practices for production systems.
+- Solid understanding of  ethics, bias mitigation, and responsible development practices.
+- Ability to analyze complex business requirements, identify  opportunities, and architect effective solutions.
+- Strong consulting skills with the ability to effectively communicate technical concepts to sales leads and clients.
+- Proven track record in technical sales engineering or solution architecture.
+
+Desirable characteristics:
+- Prior experience working with agencies or consulting firms.
+- Published work or patents in /ML.
+- Experience building and scaling  practices.
+- Background in healthcare, fintech, or blockchain domains.
+
+Important to know:
+- Since we are fully remote and our team is across the globe, you are expected to interact with different teams and need to be flexible with different time zones.",Artificial Intelligence,Python,Tensorflow,Machine Learning,Langchain,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Creators of GPTs /  Characters,https://www.upwork.com/jobs/Creators-GPTs-span-class-highlight-span-Characters_~021914955158867408157/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,250.0,250.0,"Our company, F'inn, is a strategic insight agency. We work with some of the top tech companies to help understand what people want and need in emerging spaces. 
+
+For this project, we are exploring topics related to  Character development / creation. We are talking with people who have developed, set live and shared  Characters they have created. 
+
+We'll ask you to complete a pre-survey to ensure you have the experience that is relevant to our project. If you do, we are scheduling in-person sessions in NYC during the week of April 28th. 
+
+The compensation is between $150-$350, dependent on the sessions you are invited to participate in for this project. 
+
+The pre-survey will take about 15-minute. If completed to the point where your contact info is collected, we may be able to invite you to a future project if this one is not a fit. 
+
+This is a one-time event, not an ongoing project.",Artificial Intelligence,Character Design,,,,Artificial Intelligence,,,,,,
+Backend Engineer for  Workflow Automation Project,https://www.upwork.com/jobs/Backend-Engineer-for-span-class-highlight-span-Workflow-Automation-Project_~021914848844500591627/?referrer_url_path=/nx/search/jobs/,AI,Hourly,40.0,75.0,30.0,8.0,,13800.0,"We are seeking a skilled Backend Engineer to join our team for an exciting  workflow automation project for residential services business. Think orders going to the right agents and scheduling to make sure they maximize their day. The ideal candidate will have a strong background in backend development, with experience in integrating  solutions. You will be responsible for building and maintaining robust APIs, database management, and ensuring seamless communication between the frontend and backend. If you are passionate about  and have a knack for optimizing workflows, we want to hear from you!",Artificial Intelligence,Aws Lambda,Restful Api,Python,Javascript,Artificial Intelligence,Artificial Intelligence,,,Artificial Intelligence,,
+-Capable Data Scientist,https://www.upwork.com/jobs/span-class-highlight-span-Capable-Data-Scientist_~021914792654306303658/?referrer_url_path=/nx/search/jobs/,AI,Hourly,45.0,80.0,30.0,18.0,,33750.0,"We're looking for a Data Scientist with NLP, LLM, and  experience to help us develop  fintech products.
+
+Key Responsibilities:
+
+- Design, develop, and deploy machine learning models for -driven fintech products.
+- Analyze large datasets to extract actionable insights and inform product strategy.
+- Collaborate with product managers, engineers, and business stakeholders to define and refine  use cases.
+- Build scalable data pipelines and model monitoring systems.
+- Stay current with industry trends and research to bring innovative  solutions into production.
+
+Requirements:
+- 3+ years of experience in data science, machine learning, or related roles.
+- Strong proficiency in Python, SQL, and ML frameworks (e.g., scikit-learn, TensorFlow, PyTorch).
+- Experience working with large-scale financial data and real-world deployment of ML models.
+- Familiarity with Azure
+- Excellent problem-solving skills and a product-oriented mindset.
+
+Nice to Have:
+- Experience in NLP, fraud detection, or risk modeling.
+- Background in finance, economics, or related field.",Artificial Intelligence,Machine Learning,Data Science,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai App Development,Ai Agent Development,
+User interview with someone who's company is trying to adopt  tools like Copilot or Gemini,https://www.upwork.com/jobs/User-interview-with-someone-who-company-trying-adopt-span-class-highlight-span-tools-like-Copilot-Gemini_~021914803573516363213/?referrer_url_path=/nx/search/jobs/,AI,Hourly,34.0,100.0,30.0,4.0,,8040.0,"I'm looking to understand what challenges companies are facing as they adopt  tools like Copilot, Gemini, etc., and looking to have a 30 min to 1 hour conversation with people at such companies who have leadership level perspectives on the challenges with adopting those tools.
+
+No pre-offer interview is required if you meet our spec based on our screening questions",Artificial Intelligence,,,,,,,,,,,
+Content Editor / Writer with Technical Understanding of LLMs,https://www.upwork.com/jobs/Content-Editor-Writer-with-Technical-Understanding-LLMs_~021914665218576875918/?referrer_url_path=/nx/search/jobs/,AI,Hourly,30.0,70.0,30.0,24.0,,36000.0,"The Opportunity:
+
+Our agency is working with an  hardware company and we’re looking for a consultant / editor who can help us create, ideate and edit content for LLM developers.We use  to write our content but need a second pair of eyes to make sure it’s accurate and most of all – useful and interesting.
+
+We cover topics like LLM benchmarking, hardware, use cases and LLM evaluation.This is a great role for someone who has a deep understanding of LLM hardware / software and wants to flex it in a content editing capacity.
+
+Your position will act as a consultant / editor in ensuring the accuracy, technical depth, and overall quality of our content for a technically savvy audience.
+
+Responsibilities:
+
+-Fact-Checking & Verification: Rigorously review technical content related to , ML, and LLMs to verify the accuracy of statements, code examples, concepts, and terminology.
+-Content Ideation: Contribute creative and relevant content ideas that address the needs and interests of  engineers and developers.
+-Content Editing: Review and edit written content for clarity, conciseness, technical accuracy, and grammatical correctness.
+-Collaboration: Work closely with our content creators to provide constructive feedback and ensure content aligns with industry best practices and the needs of our target audience.
+-Staying Current: Continuously stay up-to-date with the latest advancements and trends in , ML, and LLM technologies.
+
+
+Qualifications:
+-Proven experience and deep understanding in one or more of the following areas:  engineering, Machine Learning, Large -Language Model software and hardware.
+-Strong technical aptitude and the ability to understand complex technical concepts.
+-Excellent writing, editing, and proofreading skills, with a keen eye for detail.
+-Ability to explain technical concepts clearly and accurately.
+-Experience in fact-checking technical content is highly desirable.
+-Familiarity with the needs and interests of software engineers and developers.
+-Ability to work independently, manage time effectively, and meet deadlines.
+
+Bonus Points:
+-Previous experience writing or contributing to technical content in the /ML/LLM space.
+-Active participation in the /ML/LLM community (e.g., open-source contributions, personal projects).
+
+
+Contract Terms:
+-This is a freelance, contract position with flexible hours.
+-Compensation will be based hourly based on market rate and experience. Our expectation is that you can review between 4 – 10 articles / month at a cost of $60 per article.",Artificial Intelligence,Machine Learning,Content Writing,Technical Writing,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Agent Development,Ai App Development,
+Full Stack Cloud/Backend Developer,https://www.upwork.com/jobs/Full-Stack-Cloud-Backend-Developer_~021914671381504858819/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,100.0,30.0,8.0,,20400.0,"SEE ATTACHED PDF FOR COMPLETE JOB DESCRIPTION
+
+
+What you’ll do:
+
+- Review, refactor, and optimize 20+ existing Python modules
+
+- Set up and maintain a GitHub repository with proper branching strategy and CI/CD pipelines
+
+- Deploy /ML models to AWS SageMaker, manage data in S3, and coordinate services across Lambda and EC2
+
+-Integrate and test Alpaca API for live and paper trading functionality
+
+- Implement monitoring, logging, and enforce security best practices across all AWS services
+
+- Collaborate with internal stakeholders and contribute to documentation and code quality
+
+
+What You Bring:
+
+- Strong Python skills, especially in modular codebases
+
+- Proven experience with AWS services (SageMaker, Lambda, EC2, S3, CloudWatch, IAM, etc.)
+
+- Experience deploying machine learning models in production environments
+
+- Comfort working with APIs (especially Alpaca or other trading APIs)
+
+- GitHub & DevOps experience (CI/CD pipelines, version control best practices)
+
+- Strong understanding of cloud security and logging/monitoring systems
+
+- Excellent communication and ability to work independently
+
+
+Bonus Points for:
+
+- Background in algorithmic trading, quantitative finance, or fintech systems
+
+- Experience with data science, model training pipelines, or real-time systems
+
+- Familiarity with Bloomberg API, Polygon.io, or IEX Cloud
+
+
+“Required” Qualifications:
+
+- 3+ years of professional Python development experience, especially with modular, production-level code
+
+- Hands-on experience with AWS, including SageMaker, Lambda, EC2, S3, and IAM
+
+- Strong understanding of machine learning model deployment and lifecycle management
+
+- Experience working with REST APIs and integrating third-party services (e.g., Alpaca API or similar)
+
+- Proficiency in Git, with a solid grasp of branching strategies and CI/CD pipeline setup
+
+- Familiarity with logging, monitoring, and cloud security best practices
+
+- Ability to analyze and improve existing codebases
+
+- Strong communication skills and the ability to work independently in a remote environment",Artificial Intelligence,Aws Lambda,Github,Python,Amazon Sagemaker,,,,,,,
+Create Automated LinkedIn Content Generator Automation,https://www.upwork.com/jobs/Create-Automated-LinkedIn-Content-Generator-Automation_~021914489807770310889/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,150.0,150.0,"📌 Overview (Revised for Clarity)
+I’m building a system that automatically generates LinkedIn posts using GPT-4, based on my brand voice and content strategy.
+
+I want it to run on autopilot—generating one post per weekday—without me needing to manually feed it ideas every time. That said, I do want the flexibility to add my own ideas when I choose.
+
+The system should:
+
+Pull ideas from a Notion database (which may include manually entered ideas or content pulled from meetings/notes)
+
+Send them to GPT-4 using a custom LinkedIn prompt I provide
+
+Save the draft in a second Notion database for me to review, edit, and post
+
+I'm looking for someone who can build this using Zapier, Notion, and Open—and deliver a clean, reliable system I can use and later offer to clients.
+
+🛠️ What I Need You to Build:
+1. Automation Flow (Zapier)
+
+Scheduled trigger: once per weekday
+
+Pull the next available idea from a Notion Content Seeds database
+
+If nothing is available, system can either pause or use a backup/default theme bank
+
+Send idea + metadata (Post Type, Tone) to Open using a custom LinkedIn prompt I’ll provide (includes voice, structure, CTA logic, etc.)
+
+Output: Create or update a Notion record in the LinkedIn Drafts database
+
+Fields include: Content Idea,  Draft, Tone, Post Type, Status
+
+Mark the seed as “Used” with timestamp
+
+2. Two Notion Databases
+
+Content Seeds
+
+Stores raw snippets, notes, voice memos (manually or automatically sourced)
+
+Fields: Idea Snippet, Post Type Tag, Tone Hint, Source, Status, Date Added
+
+LinkedIn Draft Generator
+
+Receives the -generated drafts
+
+Fields: Content Idea,  Draft, Final Copy, Post Type, Tone, Status, Date Used
+
+3. Integration of My GPT Prompt
+
+I’ll provide a structured prompt that includes:
+
+My LinkedIn content strategy (based on the 4-1-1 rule)
+
+Hook/re-hook formatting
+
+Tone guidance and audience context
+
+You’ll set up the Zap to send dynamic fields into this prompt
+
+🔁 Bonus Features (Ideal but not required):
+Option to pull ideas from my meeting notes (Fathom or Google Doc) via Zapier
+
+A fallback system if the Content Seeds database is empty (e.g. random ideas or templates)
+
+✅ Deliverables
+Fully functioning Zapier flow (daily post draft automation)
+
+Notion databases set up and connected
+
+Open integration with custom prompt
+
+Simple guide (Notion doc or Loom) to explain how I can edit, review, and reuse the system
+
+🧠 Ideal Background
+This project is perfect for someone who has:
+
+Built GPT-powered automation tools before
+
+Experience integrating Notion + Zapier + Open
+
+Familiarity with creator workflows, LinkedIn content, or thought leadership pipelines",Artificial Intelligence,Zapier,Api Integration,Automation,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Openai Api,,
+Need a Programmer to Create a Telegram or  Trading Bot in Python,https://www.upwork.com/jobs/Need-Programmer-Create-Telegram-span-class-highlight-span-Trading-Bot-Python_~021914476550669212355/?referrer_url_path=/nx/search/jobs/,AI,Hourly,47.0,80.0,,8.0,,15240.0,"Need an  Trading Bot for automated BUY/SELL of crypto(Bitcoin only)- coded in Python, (no forex currency trading)
+
+
+trading bot functions needed:
+Automatically do, trade buying/trade selling of crypto(bitcoin) at certain price and selling at certain price i choose
+
+ex. automatically enter a trade at certain price ($50) then automatically sell it at ($65) when Bitcoin reaches that price and repeat this cycle.",Artificial Intelligence,Telegram,,,,,,,,Ai Trading,,
+"Expert Consultant for Sales, Marketing, and Engineering Tools",https://www.upwork.com/jobs/span-class-highlight-span-Expert-Consultant-for-Sales-Marketing-and-Engineering-Tools_~021914457389464191801/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,1000.0,1000.0,"We are seeking an experienced  consultant to help our company identify and recommend the best  tools focused on enhancing our sales, marketing, and engineering operations. The ideal candidate will have a deep understanding of the latest  technologies and trends, along with practical experience in applying these tools to drive business growth. Your insights will guide us in selecting the right solutions to improve efficiency and performance across our departments.",Artificial Intelligence,Lead Generation,Marketing Strategy,Content Writing,Project Management,Artificial Intelligence,Artificial Intelligence,,,,,
+"Engineer – Local Setup for Private LLM System (South Bend, IN – On-Site)",https://www.upwork.com/jobs/span-class-highlight-span-Engineer-Local-Setup-for-Private-LLM-System-South-Bend-Site_~021914437604717627847/?referrer_url_path=/nx/search/jobs/,AI,Hourly,45.0,70.0,30.0,4.0,,6900.0,"Seeking an experienced /ML engineer for a one-time on-site setup of a high-performance local LLM system. This project involves configuring and optimizing a large open-weight language model (LLaMA 4 – 70B) for use in a secure, offline private research environment.
+
+Responsibilities will include:
+•	Installing and configuring LLaMA 4 (Maverick version) locally on a high-performance Ubuntu system with RTX 6000 Ada GPU
+•	Setting up token streaming or prompt-response architecture using vLLM, Ollama, or similar inference stack
+•	Building a lightweight FastAPI (or CLI) interface for model interaction
+•	Implementing logging of inputs/outputs to disk in JSON or plain text
+•	Assisting with setup of a local embedding model (e.g., MiniLM or BGE) for vector search/memory recall
+ 
+Requirements:
+•	Prior experience running large models locally (13B–70B)
+•	Familiarity with GPU inference and memory optimization (without quantization)
+•	Strong Linux skills (Ubuntu CLI)
+•	Security-first mindset; must respect that the system is fully airgapped
+•	Ability to communicate clearly and implement from spec
+
+Nice to have (not required):
+•	Familiarity with LangChain, LangGraph, or agent orchestration frameworks
+•	Knowledge of inference schedulers, token streaming, or routing logic
+
+Project Details:
+•	Estimated time: 1–1.5 working days total
+•	Compensation: Rate negotiable — please include your typical hourly or day rate when applying
+•	Location: Must be available to work on-site in South Bend, IN
+•	Security: NDA will be required",Artificial Intelligence,,,,,,,,,,,
+"Full Stack Engineer Needed for  QA ""Computer-Use"" Agnt",https://www.upwork.com/jobs/Full-Stack-Engineer-Needed-for-span-class-highlight-span-Computer-Use-Agnt_~021914396461775356729/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,24.0,,55800.0,"We’re looking for a strong Node.js engineer to join TestDriver. as a core contributor.
+
+As a contract engineer at TestDriver, you’ll have the opportunity to make a big impact on a high-velocity team. You’ll work closely with the founder, ship real features fast, and help us build a groundbreaking testing product that engineers actually love to use. You’ll have a lot of autonomy, a lot of responsibility, and (hopefully) a lot of fun doing it.
+
+What is TestDriver?
+TestDriver helps engineering teams ship fast without sacrificing quality. Our ""computer-use""  agents deliver the depth of manual testing at the speed and scale of automation.
+
+Think Anthropic’s Computer-Use, but focused on QA. TestDriver is a custom computer-use agent and file format that uses  Vision to simulate E2E user interactions across a real operating system.
+
+We’re building a developer-first product with a deep focus on experience and speed. This isn’t just another QA tool — it’s a new layer of abstraction for testing.
+
+What’s the company like?
+We’re a VC-backed, revenue-generating startup based in Austin, TX. The team is 9 people strong, mostly remote, and highly technical.
+
+We move fast. We’re builders. And we love working with people who are self-directed, curious, and biased toward action.
+
+We’re default remote, but if you’re in or near Austin, we’d love to get some occasional in-person time.
+
+What will I be doing?
+As a contract Node.js engineer, you’ll be instrumental in scaling our core platform. This isn’t a narrow role — you’ll touch everything from infrastructure to developer-facing APIs.
+
+Here’s what you’ll focus on:
+
+Building and maintaining scalable Node.js services
+
+Owning key backend infrastructure (MongoDB, GitHub Actions integrations, cloud resources)
+
+Writing clean, testable code with an eye toward maintainability
+
+Implementing growth-focused experiments and features
+
+Collaborating closely with the founder and core team on architecture and product direction
+
+What makes a good fit?
+You should:
+
+Have deep experience with Node.js
+
+Be comfortable in a fast-paced, early-stage startup environment
+
+Have shipped production systems and maintained them under real-world load
+
+Be proactive, self-managing, and able to prioritize effectively
+
+Bonus points for:
+
+Experience with MongoDB, GitHub Actions, Datadog, or Notion APIs
+
+Familiarity with Playwright, Cypress, or other E2E test automation frameworks
+
+Exposure to  Vision, Electron, or Computer Vision (not required)
+
+This is a contract role with the potential to evolve into something more. If you’re a strong Node.js engineer looking for an exciting opportunity to help define the future of software testing, let’s talk.",Artificial Intelligence,Vue.Js,Web Application,Computer Vision,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,Ai Agent Development,Artificial Intelligence,
+Programming with full stack abilities to interact with Twilio using chat GPT for conversion.,https://www.upwork.com/jobs/Programming-with-full-stack-abilities-interact-with-Twilio-using-chat-GPT-for-conversion_~021914403981937089219/?referrer_url_path=/nx/search/jobs/,AI,Hourly,45.0,70.0,30.0,8.0,,13800.0,"Help built a site that integrates calls using  using API & Chat GPT
+must have knowledge using Twilio must full stack abilities.",Artificial Intelligence,Web Application,,,,,,,,,,
+I need up with  agent chatbot,https://www.upwork.com/jobs/need-with-span-class-highlight-span-agent-chatbot_~021914374401514701625/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,300.0,300.0,"I have a hotel chatbot application built with Flask and Flask-SocketIO for. It uses PostgreSQL (on Render), Open for  responses, Twilio , and Redis for caching. The app allows guests to chat with an , and agents can monitor conversations on a ""Live Messages"" page with real-time updates via SocketIO.
+
+Current Issues
+The moment i updated my open  then all these issues occured. I need it updated for open  sync to work. 
+
+
+Open Integration Failure:
+After updating the Open library, the  no longer responds to user messages.
+The _respond function (using AsyncOpen) is not working as expected, and no  replies are being generated.
+Live Messages Not Displaying:
+The ""Live Messages"" page (/live-messages/) is not showing messages in real-time.
+Messages should update automatically via SocketIO when users or the  send messages, but this functionality is broken.
+What I Need
+I need a Python/Flask developer with experience in Open, Flask-SocketIO, and real-time messaging to:
+
+Fix the Open integration so the  responds to user messages again.
+Ensure all messages display in real-time on the ""Live Messages"" page using SocketIO.
+Test the application on Render to confirm both issues are resolved.
+Tech Stack
+Backend: Python, Flask, Flask-SocketIO, Celery
+Integrations: Open, Twilio , Redis
+Deployment: Render
+Deliverables
+A working Open integration with  responses.
+Real-time message updates on the ""Live Messages"" page.
+A tested and deployed application on Render.",Artificial Intelligence,Chatbot Development,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+for Legal Trainer,https://www.upwork.com/jobs/span-class-highlight-span-for-Legal-Trainer_~021914133918726292107/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,1300.0,1300.0,"📚  Trainer – Legal Workflow Automation (1-Day Remote Training)
+💼 Category:  Training / Legal Tech / Process Automation
+💰 Rate: $1,300 for full-day remote training
+🌐 Location: Remote (U.S.-based preferred)
+🗓️ Start Date: Two weeks after contract signing
+
+🧠 Project Overview
+We're a small but fast-moving law firm seeking a remote  trainer to lead a full-day virtual training session for our attorneys and staff. This session will focus on how to integrate  tools into our daily operations to reduce repetitive tasks and improve efficiency.
+
+The training will be held remotely via Zoom or similar platform, and may be delivered as a full-day session or two half-day sessions across two days. Either format will be paid at our standard full-day rate of $1,300.
+
+🎯 Training Goals
+Teach our team how to use  and automation tools to streamline:
+
+Billing and invoicing
+
+Appointment scheduling and reminders
+
+Document generation and intake forms
+
+Internal task automation and  assistants
+
+Share demos and hands-on walkthroughs using relevant platforms
+
+Customize content to fit the needs of small law firms and legal professionals
+
+Address data privacy, ethics, and client confidentiality in  usage
+
+✅ Ideal Candidate
+We're looking for someone who:
+
+Has experience delivering virtual training sessions
+
+Can translate complex  concepts into actionable tools for non-technical users
+
+Is familiar with platforms like Zapier, Calendly, Clio, MyCase, GPT API, or other automation tools
+
+Has previously trained professional service teams (legal experience a plus)
+
+Can deliver engaging, interactive remote instruction
+
+🕒 Logistics & Compensation
+Prep Time: 2 weeks from contract signature to training date
+
+Delivery Format: Remote, via Zoom or platform of your choice
+
+Compensation:
+
+Half-Day (3.5 hours): $700
+
+Full-Day (7 hours or two half-days): $1,300
+
+📝 How to Apply
+Please include:
+
+A short bio and relevant experience in  or legal automation
+
+Examples of virtual training you’ve led
+
+A note about your training style and tools you specialize in",Artificial Intelligence,Chatgpt,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+"Consultant – Legal Workflow Automation (Billing, Reminders, Operations)",https://www.upwork.com/jobs/span-class-highlight-span-Consultant-Legal-Workflow-Automation-Billing-Reminders-Operations_~021914132889905463947/?referrer_url_path=/nx/search/jobs/,AI,Hourly,150.0,175.0,30.0,4.0,,19500.0,"🚀  Consultant – Legal Workflow Automation (Billing, Reminders, Operations)
+💼 Category:  Development / Legal Tech / Business Automation
+💰 Rate: $150–$175/hr (Depending on Experience)
+📍 Location: Remote
+⏳ Project Type: One-time workshop + possible ongoing support
+
+🧠 Project Overview
+We're a small but growing law firm looking to leverage  tools and automation to improve efficiency and reduce time spent on repetitive tasks. This engagement will begin as a consulting/workshop-style project to evaluate our needs, recommend  tools or platforms, and potentially implement automation solutions.
+
+Our key areas of focus:
+
+Automated Billing (tracking billable hours, generating invoices, sending reminders)
+
+Client Appointment Reminders (email/SMS integrations with calendar tools)
+
+Task Automation for repetitive internal operations (document generation, client intake, follow-ups)
+
+Potential integration of  chat assistants or tools for preliminary legal queries or client onboarding
+
+🔍 What We're Looking For
+We’re seeking an  consultant or automation expert who can:
+
+Conduct a 1:1 discovery session with our leadership team
+
+Review our current tech stack and workflows
+
+Recommend -powered platforms, plugins, or low/no-code automation tools
+
+Create a roadmap for implementation (and optionally assist with build-out)
+
+✅ Ideal Skills & Experience
+/ML knowledge focused on business or legal applications
+
+Familiarity with tools like Zapier, Make (Integromat), ChatGPT, GPT API, Calendly, Clio, MyCase, or similar CRMs
+
+Previous experience consulting for small professional services firms
+
+Ability to explain technical solutions in clear, non-technical terms
+
+Bonus: Familiarity with legal operations or small law firm workflows
+
+📆 Project Timeline
+We’d like to start with an initial 1–2 hour paid consultation, followed by a short-term project roadmap. If things go well, we’re open to ongoing advisory or implementation support.
+
+📝 How to Apply
+Please include:
+
+A brief overview of your relevant experience
+
+Any past projects involving  + small business automation (bonus for legal!)
+
+Tools/platforms you typically work with
+
+Your availability for an initial call this week or next
+
+Looking forward to working with someone who can help us modernize our firm, reduce manual workload, and scale efficiently using .",Artificial Intelligence,Chatgpt,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+"Consultant – Enterprise Automation Strategy for Engineering, IT & C-Suite Leaders",https://www.upwork.com/jobs/span-class-highlight-span-Consultant-Enterprise-Automation-Strategy-for-Engineering-amp-Suite-Leaders_~021914134808978861793/?referrer_url_path=/nx/search/jobs/,AI,Hourly,125.0,155.0,30.0,4.0,,16800.0,"🚀  Consultant – Enterprise Automation Strategy for Engineering, IT & C-Suite Leaders
+💼 Category:  Strategy / Automation / Enterprise Tech
+💰 Rate: $150–$175/hr (Depending on Experience)
+🌐 Location: Remote
+⏳ Project Type: Short-term strategy session, with optional follow-up
+
+🧠 Project Overview
+We're seeking a high-level  consultant to help design a strategic automation roadmap for a large organization across Engineering, IT, and Executive (C-suite) divisions. This will start as a virtual workshop or series of sessions and may grow into a broader support engagement.
+
+🧩 Key Goals
+Analyze current processes in Engineering, IT Ops, and C-Suite reporting workflows
+
+Recommend -powered tools for:
+
+Automated reporting
+
+-driven data analysis
+
+Workflow optimization
+
+Executive dashboards and task automation
+
+Help define an internal  readiness strategy
+
+✅ Ideal Background
+Experience consulting for enterprise clients (engineering, IT, or executive teams)
+
+Knowledge of automation tools (e.g., Power Automate, Zapier, GPT API, LangChain)
+
+Ability to scope and communicate strategic opportunities clearly
+
+Strong understanding of ’s ethical and business implications
+
+📝 To Apply
+Please share:
+
+Relevant experience and previous enterprise  consulting engagements
+
+Areas of expertise ( platforms, industries, etc.)
+
+Tools or platforms you recommend for large-scale business automation
+
+Your general availability over the next 2 weeks
+
+We’re looking for someone who can help our leadership team move from curiosity to confident implementation.",Artificial Intelligence,Chatgpt,Information Technology,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Trainer – Executive & Engineering Workflow Automation (2 Half-Day Remote Sessions),https://www.upwork.com/jobs/span-class-highlight-span-Trainer-Executive-amp-Engineering-Workflow-Automation-Half-Day-Remote-Sessions_~021914135339205996257/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,1300.0,1300.0,"📚  Trainer – Executive & Engineering Workflow Automation (2 Half-Day Remote Sessions)
+💼 Category:  Training / Enterprise Automation / C-Suite Enablement
+💰 Rate: $1,300 for two 4-hour remote sessions (total = full-day rate)
+🌐 Location: Remote
+📅 Delivery: Two half-day sessions (4 hours each) scheduled over 1–2 days
+⏳ Prep Time: 2 weeks from contract signature
+
+🧠 Project Overview
+We are looking for a dynamic  trainer to deliver two 4-hour remote sessions (8 hours total) designed specifically for Engineering, IT, and Executive (C-Suite) professionals. This session will provide a strategic overview of how  can drive automation and efficiency across their departments.
+
+🎯 Training Objectives
+Provide a high-level overview of ’s impact on business and technology
+
+Deliver hands-on demonstrations of automation tools and use cases
+
+Explore  for reporting, productivity, and workflow automation
+
+Discuss ethical implications, data security, and cross-functional integration strategies
+
+✅ Ideal Candidate
+We are seeking someone who:
+
+Has led training for executive or enterprise-level teams
+
+Understands both technical and business sides of 
+
+Can demonstrate tools like GPT-4, Microsoft Copilot, LangChain, or custom GPT workflows
+
+Is engaging, polished, and able to speak to C-level professionals
+
+Can provide practical examples and walk-throughs relevant to Engineering and IT workflows
+
+🕒 Logistics & Rate
+Format: Two 4-hour sessions delivered remotely
+
+Total Compensation: $1,300 (our standard full-day rate)
+
+Prep Time: 2 weeks from contract signature to training date
+
+Platform: Zoom or similar (we’ll provide access)
+
+📝 To Apply
+Please include:
+
+Your background in  and enterprise training
+
+Experience working with Engineering, IT, or Executive teams
+
+Examples of past trainings or recorded sessions if available
+
+Your availability for the next 30 days
+
+We’re looking for a high-caliber trainer who can connect the dots between technology and business for our leadership team.",Artificial Intelligence,Chatgpt,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+API Data Engineer,https://www.upwork.com/jobs/span-class-highlight-span-API-Data-Engineer_~021914092178971564739/?referrer_url_path=/nx/search/jobs/,AI,Hourly,60.0,120.0,30.0,8.0,,21600.0,"Job Overview
+We’re looking for an experienced Data Engineer to own and enhance our existing Python-based data pipeline that scrapes public audio data and performs extensive post-processing, including transcription, diarization, and annotation using Rev API and Gemini Pro API.
+Responsibilities:
+Take ownership of our existing audio data pipeline
+Maintain and improve the reliability and efficiency of the current system
+Develop new features and functionality for audio processing
+Integrate and optimize usage of external APIs (Rev, Gemini Pro)
+Implement robust error handling and monitoring
+Document the system and processes
+Requirements:
+Strong Python programming skills
+Experience building and maintaining data pipelines
+Experience integrating and working with external APIs
+Knowledge of best practices for scalable data engineering
+Fast execution and iterative development mindset
+Self-motivated with ability to work independently
+Nice to Have:
+Experience with speech-to-text systems
+Familiarity with audio processing techniques
+Knowledge of speaker diarization techniques
+Background in audio signal processing
+Experience with cloud computing platforms
+Prior work with large language models or  APIs
+Project Details:
+This is an ongoing role with potential for long-term collaboration. The ideal candidate will be able to understand our current system quickly and start making improvements immediately. We value speed of execution and pragmatic solutions over perfection.",Artificial Intelligence,Python,Api,,,,,,,Artificial Intelligence,,
+Expert Needed for Automated Financial Newsletter Generation,https://www.upwork.com/jobs/span-class-highlight-span-Expert-Needed-for-Automated-Financial-Newsletter-Generation_~021914070028676039307/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,85.0,30.0,8.0,,18000.0,"Seeking an experienced Python developer with a strong understanding of  and agentic workflows to help me build an automated system that generates and emails a weekly newsletter to my investor clients. The newsletter should provide timely, insightful updates on the current state of the economy and financial markets, using curated data sources, language generation models (like GPT), and possibly retrieval-augmented generation for added context. The system should be able to autonomously gather relevant economic and market data, synthesize the information into a professionally written newsletter, and distribute it via email to a client list every week. Ideally, the workflow should be agent-driven, with minimal human intervention, and include logging, error handling, and the flexibility to evolve as market conditions and data sources change. Experience with financial data APIs, automated email systems, and prompt engineering is highly preferred.",Artificial Intelligence,Natural Language Processing,,,,,,,,Ai Agent Development,Ai Instruction,
+No-Code Backend Developer (Xano + Open) for Early-Stage Social Platform,https://www.upwork.com/jobs/Code-Backend-Developer-Xano-Open-span-class-highlight-span-for-Early-Stage-Social-Platform_~021905671283026819747/?referrer_url_path=/nx/search/jobs/,AI,Hourly,40.0,75.0,30.0,8.0,,13800.0,"Job Title:
+No-Code Backend Developer (Xano + Open) for Early-Stage Social Platform
+
+⸻
+
+About Us:
+We are an early-stage -powered social platform helping users reclaim control of their digital experience. We aggregate content across platforms and curate it into a personalized, mood-based feed—focused on user intention, not algorithmic chaos.
+
+We’re building the next evolution of social tech—and looking for a mission-aligned backend developer to help us bring our MVP to life. 
+
+⸻
+
+Project Scope:
+	•	Build backend infrastructure using Xano
+	•	Set up user authentication (email + optional social login via Firebase)
+	•	Create logic for mood + interest-based user profiles
+	•	Store and rank content using -generated scores (Open API integration)
+	•	Build feed logic to query and serve content based on relevance to each user
+	•	Connect backend to front-end UI built in V0 (by Vercel)
+
+⸻
+
+Bonus Skills:
+	•	Familiarity with Make.com or Pipedream for automation
+	•	Experience with Firebase Auth or similar
+	•	Background in building consumer-facing or mood/intention-driven products
+
+⸻
+
+Timeline:
+4–6 weeks to launch a working MVP with beta users.
+
+⸻
+
+To Apply:
+Please send:
+	•	A brief intro or Loom video about your background
+	•	Examples of similar projects (Xano + Open work especially helpful)
+	•	Your availability and hourly/project rate",Artificial Intelligence,Api Integration,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Openai Api,Ai App Development,
+/ML & Python Trainer (Contract - Remote),https://www.upwork.com/jobs/span-class-highlight-span-amp-Python-Trainer-Contract-Remote_~021907133474520320770/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,95.0,30.0,24.0,,57600.0,"Company Description
+WellomyTech provides state-of-the-art technology and customized solutions to small and medium-sized enterprises (SMBs) and startups. Our goal is to ensure that these businesses enjoy the same advantages typically reserved for larger corporations. By leveraging cloud-based technologies and  , we empower small businesses to boost sales, reduce operational expenses, expand into new markets, and enhance cybersecurity, all while keeping costs manageable.
+
+Role Description
+This is a contract remote role for an /ML & Python Trainer. The /ML & Python Trainer will be responsible for teaching and training clients on various  , machine learning, and Python programming tools and techniques. Trainers are expected to share their availability in advance and conduct training sessions as scheduled once bookings are confirmed. This role operates on a revenue-sharing model.
+
+Responsibilities
+Deliver high-quality training sessions on /ML concepts, Python programming, tools, and techniques.
+
+Develop and present practical use cases and real-world examples using Python libraries (e.g., TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib).
+
+Customize training content to meet the specific needs of different client groups.
+
+Share the training schedule and availability in advance to facilitate bookings.
+
+Conduct sessions remotely, using virtual tools and platforms effectively.
+
+Provide post-training support and address any follow-up queries from participants.
+
+Continuously update training materials to reflect the latest /ML and Python programming trends and advancements.
+
+Qualifications
+10+ years of experience in  , machine learning, and Python programming.
+
+Proven experience in teaching, training, or lecturing on /ML and Python topics.
+
+Strong skills in information technology and software development, particularly using Python for /ML solutions.
+
+Proficiency in Python libraries and frameworks (e.g., TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib).
+
+Excellent communication and interpersonal skills.
+
+Experience in creating and conducting training sessions for diverse audiences.
+
+Ability to work independently and remotely.
+
+Bachelor’s degree in Data Science, Information Technology, Computer Science, or a related field is preferred.",Artificial Intelligence,Machine Learning,Python,Natural Language Processing,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Custom Emotional Self-Reflection App Developer Needed,https://www.upwork.com/jobs/span-class-highlight-span-Custom-Emotional-Self-Reflection-App-Developer-Needed_~021906746607219386760/?referrer_url_path=/nx/search/jobs/,AI,Hourly,12.0,38.0,30.0,8.0,,6000.0,"We are seeking a skilled developer to implement a custom-designed emotional self-reflection app. The project involves utilizing a fully written logic system to create a user-friendly interface and engaging functionalities. The ideal candidate will have experience in app development and a passion for mental well-being. If you have a strong portfolio of similar projects and can deliver on time, we would love to hear from you.",,Android,Graphic Design,,Javascript,,,,,,,
+Fantasy Football Draft Order Reveal App With Voice Announcements,https://www.upwork.com/jobs/Fantasy-Football-Draft-Order-Reveal-App-With-Voice-Announcements_~021905447381202643823/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,100.0,100.0,"I'm looking for a Python developer to build a fun and engaging fantasy sports draft order reveal tool that can be used during live drafts with friends or league members.
+
+The goal is to create a desktop application that:
+Accepts a list of league/team names
+Randomly generates a draft order
+Announces each pick using  voice generation
+Plays a custom intro sound before each pick",Artificial Intelligence,Api Development,Python,Api,,,,,,Ai Agent Development,Ai App Development,
+SQL Video Course for Beginners,https://www.upwork.com/jobs/SQL-Video-Course-for-Beginners_~021904574346186730352/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5000.0,5000.0,"I need someone with experience in SQL and RAG with good camera presence who can collaborate with me in order to create a beginner's course on SQL databases and how it integrates with  and automations.
+
+This won't be a project you work on alone, I look forward to working with you! My team and I run a community on the Skool platform where we teach   and also a YouTube channel called  Foundations.
+
+We want to take our community members to the next level and integrate databases into the mix. Querying databases with  will be something crucial for peoples' success. 
+
+Right now we teach super basic concepts with Supabase and Pinecone, since they both easily integrate with  Agents on n8n.io. I think we could take it to the level though with your help.
+
+So, I'd love to talk about how you can help!
+
+This should be fun. Preferably a 1080p minimum camera quality would be needed. 4k if possible!
+
+Let's chat :)",Artificial Intelligence,Restful Api,Chatgpt Api,Sql,Retrieval Augmented Generation,Artificial Intelligence,Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Branding and Logo Design,https://www.upwork.com/jobs/Branding-and-Logo-Design_~01cd3ddd5b8cbc7cfe/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,200.0,200.0,"I'm starting an athlete-focused, minimalist, tongue-in-cheek brand. I already have an icon for it and some colors I think I would like to use. I'm looking for someone to hash out a logo and some secondary designs. Looking to just flesh out the branding a bit.
+
+It's minimalist and I already have a good direction going, so this won't be a ton of work. Should be relatively quick and easy.
+
+I'll need all files at the end of the project: , eps, , png, svg, pdf.",Artificial Intelligence,Icon Design,Digital Marketing Materials,Branding Template,Logo Design,Artificial Intelligence,,,,,,
+Consultation Call for Predictive Model Development,https://www.upwork.com/jobs/Consultation-Call-for-Predictive-Model-Development_~021911953226818254414/?referrer_url_path=/nx/search/jobs/,AI,Hourly,75.0,165.0,30.0,4.0,,14400.0,"We are looking for a knowledgeable consultant to engage in a one-on-one consultation focused on developing a predictive support score model using an extensive dataset. 
+
+IMPORTANT: This job is for a left-leaning political organization, and so familiarity/comfort with that is critical. 
+
+The perfect candidate will possess robust expertise in data analysis and modeling techniques leveraging ML. Your expertise will be instrumental in guiding the model’s scoping and ensuring it meets our objectives effectively. When applying, please include a summary of your relevant experience and any pertinent projects you have worked on.
+
+Bonus points if you are also interested in possibly building said model as a follow-up, but that is not a requirement for this project.",,Predictive Model,Machine Learning,Data Science,Deep Learning,,,,,,,
+ChatGPT API Developer for Litigation,https://www.upwork.com/jobs/ChatGPT-API-Developer-for-Litigation_~021903316927296174755/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,24.0,,55800.0,"Description:
+Seeking experienced developer to build a custom software solution leveraging ChatGPT’s API to analyze data to be used in wage theft class actions. The ideal candidate has:
+
+- Proven experience with Open/ChatGPT API integrations.
+- Experience in data analysis and visualization.
+- Proficiency in Python (preferred), JavaScript, or similar.
+- Excellent communication and problem-solving skills.
+
+Deliverables:
+- Functional software tool capable analyzing wage theft data via ChatGPT.
+- Documentation for future scalability and maintenance.
+
+Please share relevant past projects and your availability. Please include your expected rate or project estimate.",Artificial Intelligence,Python,Javascript,Desktop Application,,,,,,Ai Model Integration,Ai App Development,
+"Specialist: Ad Targeting, Predictive Analytics -  Platform Knowledge",https://www.upwork.com/jobs/span-class-highlight-span-Specialist-Targeting-Predictive-Analytics-span-class-highlight-span-Platform-Knowledge_~021909729616426363817/?referrer_url_path=/nx/search/jobs/,AI,Hourly,25.0,55.0,30.0,24.0,,28800.0,"Seeking a contractor that can support our Advertising Agency step into  Ad Testing and Targeting.
+
+We don't deal with large brands or nationwide campaigns.  
+We work with upper midwest clients that have perhaps a statewide geo footprint, and they provide parody services and products to age ranges 45+. Dynamic ad testing and understanding we believe could drive opportunity understanding to the next level and we are wanting to dip our toes into the  revolution.
+
+Lets talk and figure out what we can do together.",Artificial Intelligence,Predictive Analytics,Machine Learning,Data Analysis,,Artificial Intelligence,,,,,,
+Build + Grow GOVCON  SaaS in Replit – $250 + 10% Revenue Share + $1K Bonus + Working Capital,https://www.upwork.com/jobs/Build-Grow-GOVCON-span-class-highlight-span-SaaS-Replit-250-Revenue-Share-Bonus-Working-Capital_~021913712859290939675/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,250.0,250.0,"Overview:
+I’ve built a working template and core components of a SaaS platform called BidReadyHQ — an -powered tool that helps small businesses find and win local, state, and federal government contracts.
+
+The platform is currently built on Replit, with key features already in place. I’m looking for a skilled, startup-minded developer to help finish the MVP, refine functionality, integrate key systems (Firebase, Stripe, Open), and drive user growth through product improvements and lean marketing support.
+
+Note: I may choose to migrate the platform to Bubble or another scalable no-/low-code platform for better mobile/desktop performance. If that happens, I’d look to you for guidance and support in the transition.
+
+🛠️ What You’ll Do:
+🚧 Finish the MVP (Template Already Built)
+Fix frontend bugs (Tailwind / Replit)
+
+Complete Firebase authentication setup
+
+Integrate Stripe for paid subscriptions
+
+Finalize Open assistant workflows (proposal generation, summaries, templates)
+
+🌐 Scraping &  Tools
+Scrape SAM.gov and state/county procurement portals
+
+Automate scraping via ParseHub, Puppeteer, or Python
+
+Integrate scraped data into user dashboards with filters and tagging
+
+🤖 Build  Proposal Assistant
+Summarize government solicitations
+
+Generate capability statements and bid package templates
+
+Build proposal checklists and automation tools using Open API
+
+📈 Growth & User Acquisition
+Help run lightweight advertising or referral campaigns
+
+Support onboarding of 25+ new paying users per month
+
+Integrate tracking and analyze funnel performance
+
+💰 Compensation:
+$250 upfront payment for dev work
+
+$250 working capital for paid marketing (available as needed), or more if the first 2 months go well.
+
+10% of net monthly revenue (post Stripe fees) for 12 months
+
+Up to $3,000 in bonuses based on subscriber milestones:
+
+
+Milestone	Bonus
+🎯 50 users within 2 months	$500
+🎯 100 users within 4 months	$500
+🎯 150 users within 6 months	$500
+🎯 200 users within 8 months	$500
+🎯 250 users within 10 months	$500
+🎯 300 users within 12 months	$1,000
+💼 Performance-based contract renewal after 12 months 
+
+📃 Terms:
+Must sign Work-for-Hire + NDA + Revenue Share Agreement
+
+You assign all platform code, logic, and assets to BidReadyHQ
+
+Monthly rev share & bonus payouts via Stripe, PayPal, or bank transfer
+
+✅ Ideal Fit:
+Full-stack or no-code developer (Firebase, Open, Stripe, Tailwind)
+
+Skilled with Replit or able to migrate to Bubble, Vercel, or other platforms
+
+Experienced with scraping public data (SAM.gov, state procurement sites)
+
+Comfortable with  workflows (Open API + prompt engineering)
+
+Bonus if you’ve worked with GovCon, RFP response systems, or proposal tools
+
+Understands lean growth, early-stage SaaS, and long-term product scaling
+
+🧩 To Apply, Please Send:
+A short summary of your relevant experience (SaaS, scraping, )
+
+A sample project using Firebase, Stripe, Open, or scraping
+
+Your plan for completing the MVP + acquiring 300 users over 12 months
+
+Your availability + timeline to complete the project
+
+This is a launchpad opportunity. If you help us hit traction goals, there’s a clear path to a long-term, higher-paying technical leadership role after the 12-month rev share period.",Artificial Intelligence,Lead Generation,Replit,Bubble.Io,Stripe Api,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Agent Development,Openai Api,
+Project Opportunity in,https://www.upwork.com/jobs/Project-Opportunity-span-class-highlight-span_~021907899046094510176/?referrer_url_path=/nx/search/jobs/,AI,Hourly,25.0,35.0,30.0,24.0,,21600.0,"PrecisCa, a Florida-based company offering oncology services, is seeking a highly motivated graduate or senior undergraduate student with experience in building -based tools for a project aimed at developing decision support software in oncology. The selected candidate will: 
+    
+·       Utilize large language models (LLMs) to process and analyze case discussions and educational content from an innovative oncology platform.
+·       Design and implement machine learning models for decision-making support in clinical settings. 
+·       Gain hands-on experience with real-world applications of  in healthcare. 
+ 
+
+The candidate must have the following skills:
+ 
+·       Background in machine learning/.
+·       Experience with using and fine-tuning application-scale LLMs.
+·       Experience in developing deployable applications.
+·       Familiarity with implementing apps on AWS or other cloud platforms.
+ 
+This is a flexible open-ended position with a duration and total number of hours dependent on the time needed to complete the immediate tasks and possible new opportunities that may emerge as a result. The rate is negotiable based on candidate skills and experience, with a minimum of $30/hr. 
+
+Only candidates with authorization to work off-campus should apply. All work will be done remotely without any use of University facilities.
+
+ 
+ 
+About PrecisCa
+PrecisCa, established in 2020 and headquartered in Boca Raton, Florida, is a company specializing in oncology education and support services. The organization offers multidisciplinary virtual expert cancer panels and a comprehensive library of over 1,700 educational to assist oncology providers and their patients. PrecisCa’s focus on fostering the growth of future oncology leaders through immersive virtual series and its dedication to developing new educational content position the company well for future growth.",Artificial Intelligence,Machine Learning,Large Language Model,Natural Language Processing,,Artificial Intelligence,Artificial Intelligence,,,Artificial Intelligence,,
+Developer – High-Impact Role in Fast-Growing  Startup (CTO Potential),https://www.upwork.com/jobs/span-class-highlight-span-Developer-High-Impact-Role-Fast-Growing-span-class-highlight-span-Startup-CTO-Potential_~021902355048906156854/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,250.0,250.0,"🚀 MidAtlantic  is scaling fast, and we need a serious developer to help push us forward.
+
+We build high-performance  automation tools for small businesses, and we’re at a critical moment. Right now, we need a sharp, independent problem-solver to fix deployment issues, optimize our  Voice Pro system, and potentially take a major role in our company’s growth.
+
+This isn’t a gig for just any coder. If you’re looking for easy money with copy-paste  scripts, this isn’t for you. If you’re the kind of dev who thinks ahead, builds efficiently, and actually understands , keep reading.
+
+This starts as a paid project ($250) to fix deployment and ensure stability. If you deliver, we’ll expand your role into ongoing work or even a Lead Developer (CTO) position with 15% equity.
+
+🛠 What You’ll Do (Immediate Task)
+✅ Fix deployment issues and optimize  Voice Pro
+✅ Work with FastAPI, Docker, MongoDB, AWS, Open (or close variations)
+✅ Ensure stability, performance, and scalability of our  tools
+✅ Communicate clearly and efficiently (English fluency + video interview required)
+✅ Think beyond just ""writing code""—we need a builder, not just a coder
+
+🔍 Who We’re Looking For
+Real-World Experience: You’ve built  or automation solutions that actually work, not just tutorials.
+Strong English & Communication: If we can’t have a normal, detailed conversation about , it won’t work.
+Independent, Fast Thinker: I don’t micromanage, and I expect you to move with purpose.
+Full-Stack Capable: Preferably well-versed in multiple stacks, especially -heavy ones.
+Based in the USA (DMV Preferred): Long-term, we want a team that can meet up for BBQs, fishing trips, and company events when we get there.
+💰 What’s in It for You?
+✔ $250 to start (paid test project, quick deployment fix)
+✔ Ongoing contract work (if you prove yourself)
+✔ CTO offer (15% equity) for the right candidate
+✔ Build with a startup that actually delivers high-quality  solutions
+✔ Work directly with the founder—no corporate nonsense, just real execution
+
+⚡ How to Apply
+Send:
+1️⃣ A brief intro about you and your experience.
+2️⃣ Examples of /automation projects you’ve worked on.
+3️⃣ Your availability to start (ASAP preferred).
+4️⃣ Confirmation that you’re open to a video interview (non-negotiable).
+
+🚨 If you can’t meet these requirements, don’t apply. We move fast, and we’re only looking for top-tier, serious candidates.
+
+Let’s talk if you’re ready to build something big.
+I've included an example shot of a screen from  voice pro's front end.",Artificial Intelligence,React,Python,Product Management,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Expert Needed for  technical architecture review for workflow automation product,https://www.upwork.com/jobs/span-class-highlight-span-Expert-Needed-for-span-class-highlight-span-technical-architecture-review-for-workflow-automation-product_~021902149526653228642/?referrer_url_path=/nx/search/jobs/,AI,Hourly,40.0,70.0,30.0,8.0,,13200.0,"We are seeking a highly experienced  Expert Consultant to review our  architecture and provide detailed feedback and strategic guidance for our development team. Our company offers a workflow automation platform, and we are in the process of integrating -powered capabilities to enhance automation, decision-making, and user experience.
+
+The ideal candidate should have a deep understanding of /ML architectures, MLOps, LLMs, and workflow automation. This is a short-term consulting role, but depending on the value provided, it may extend into a longer-term engagement.",Artificial Intelligence,Python,Automation,Api,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,Artificial Intelligence,Ai App Development,
+Organic health care Chatbot Dev  Expert,https://www.upwork.com/jobs/Organic-health-care-Chatbot-Dev-span-class-highlight-span-Expert_~021912753778195654908/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,370.0,370.0,"Looking for a chatbot and  expert to potentially work with us longer term after fixing  our current chatbot. Fix and improve our current natural language health care chatbot - add feature. 
+
+Looking for someone who is cutting edge to work with our health care online platforms. 
+
+Thanks",Artificial Intelligence,Chatbot,Chatbot Development,Natural Language Processing,Javascript,,,,,Artificial Intelligence,,
+Google Vertex Developer – Agent Builder (Hawaii Travel Concierge Application)I,https://www.upwork.com/jobs/Google-Vertex-Developer-span-class-highlight-span-Agent-Builder-Hawaii-Travel-Concierge-Application_~021913293210304982753/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,8.0,,18600.0,"We’re looking for a skilled and innovative Developer to build and implement -powered travel concierge experiences—exclusively for travelers visiting Hawaiʻi. Using Google Vertex  Agent Builder and the Agent Development Kit (ADK), you’ll help create a seamless, intelligent support system that serves travelers from inspiration and planning, through booking and real-time in-trip support across all Hawaiian Islands.
+
+This is not a general travel platform—it’s a dedicated experience focused 100% on Hawaiʻi. You’ll be engineering a cohort of specialized agents that act as a personal travel concierge, integrating tools like Google Places API, Google Search Grounding, and Hawaii-Aloha.Com, customized to serve only travelers to Hawaiʻi.
+
+Proficiency in Python and Node.js development.
+
+Experience with Vertex  Agent Builder and Google Cloud /ML stack.
+
+Strong understanding of event-driven architecture, JSON schemas, and pydantic validation.
+
+Familiarity with travel-related APIs, especially those relevant to Hawaiʻi (Google Maps/Places, local tourism sites, etc.).
+
+Experience working with MCP (e.g., Airbnb search and listing tools).
+
+Solid testing/debugging skills and version control (Git).
+Bachelor’s degree in Computer Science or relevant experience
+
+See this link https://github.com/google/adk-samples/tree/main/agents/travel-concierge#mcp",Artificial Intelligence,,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,Ai Agent Development,Artificial Intelligence,
+Survey: Share your thoughts on using  agents in your work as a Budget Analysts,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Budget-Analysts_~021905165899154811066/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Budget Analysts or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Survey: Share your thoughts on using  agents in your work as a Ticket Agent,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Ticket-Agent_~021908047924456496300/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Reservation and Transportation Ticket Agents and Travel Clerks or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Survey: Share your thoughts on using  agents in your work as a Computer Hardware Engineer,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Computer-Hardware-Engineer_~021909307140635259601/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Computer Hardware Engineers or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,Computer Hardware,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+-Powered Assistant Build for Apartment Locator CRM (Web-Based MVP),https://www.upwork.com/jobs/span-class-highlight-span-Powered-Assistant-Build-for-Apartment-Locator-CRM-Web-Based-MVP_~021912708742014822846/?referrer_url_path=/nx/search/jobs/,AI,Hourly,50.0,100.0,30.0,8.0,,18000.0,"I’m looking for an experienced developer to build a powerful, conversational  assistant designed specifically for apartment locators. The  will leverage a large language model (e.g., GPT-4) to:
+	•	Understand and interpret natural language from apartment locators, capturing client details (budget, location, amenities, move-in dates).
+	•	Automatically update and manage CRM records, integrating seamlessly with popular CRM platforms.
+	•	Track client statuses, including tours, applications, approvals, lease expirations, and generate timely reminders for important tasks.
+	•	Trigger automated workflows such as scheduling follow-ups, sending automated emails, and populating invoice templates (no complex financial calculations needed).
+	•	Provide a conversational, Jarvis-like user experience, enabling locators to speak or type naturally about their client interactions and have the  handle backend CRM updates and management tasks intuitively.
+
+Key requirements:
+	•	Proven experience developing conversational  tools with modern LLMs (GPT-4 or equivalent).
+	•	Expertise integrating third-party CRMs, APIs, calendar, and basic invoicing functions.
+	•	Strong UI/UX skills for creating intuitive, polished, and professional-looking interfaces.
+	•	Ability to handle sensitive client data securely and privately.
+
+The ideal candidate is someone proactive, detail-oriented, and communicative, who can deliver high-quality, scalable solutions and is open to future ongoing development opportunities.",Artificial Intelligence,Javascript,Api,Customer Relationship Management,Web Development,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,,
+Survey: Share your thoughts on using  agents in your work as a Video Game Designer,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Video-Game-Designer_~021904318638106213027/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Video Game Designers or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,Video Game,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Website Chatbot and Email Auto-Responder Development,https://www.upwork.com/jobs/Website-Chatbot-and-Email-Auto-Responder-Development_~021910721649906321077/?referrer_url_path=/nx/search/jobs/,AI,Hourly,15.0,35.0,30.0,8.0,,6000.0,"**Job Opportunity: Chatbot Developer**
+
+We are looking for a talented developer to design and implement an intelligent chatbot for our website, aimed at providing accurate information about our organization. The perfect candidate will possess expertise in natural language processing and chatbot development frameworks, guaranteeing an intuitive user experience. If you are enthusiastic about leveraging technology to elevate customer engagement, we would love to connect with you!",,Lead Generation,Php,Html,Web Development,,,,,,,
+Founder & CEO of Neurotech Industries,https://www.upwork.com/jobs/Founder-CEO-Neurotech-Industries_~021898312526086418384/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5000.0,5000.0,"We are Neurotech Industries, a company seeking an experienced  hardware engineer to assist in the development of a next-generation wearable device designed to enhance sleep quality. This project involves integrating smart technology with adaptive sound processing to create an optimized sleep environment. The ideal candidate will have expertise in Active Noise Cancellation (ANC), -driven sound processing, and low-power wearable devices. Due to the confidential nature of this private product development project, additional details will be shared with selected candidates.",Artificial Intelligence,Machine Learning,Bluetooth,Wearable Technology,,Artificial Intelligence,,,,,,
+Developer – High-Impact Role in Fast-Growing  Startup (CTO Potential),https://www.upwork.com/jobs/span-class-highlight-span-Developer-High-Impact-Role-Fast-Growing-span-class-highlight-span-Startup-CTO-Potential_~021902138699155739408/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,250.0,250.0,"🚀 MidAtlantic  is scaling fast, and we need a serious developer to help push us forward.
+
+We build high-performance  automation tools for small businesses, and we’re at a critical moment. Right now, we need a sharp, independent problem-solver to fix deployment issues, optimize our  Voice Pro system, and potentially take a major role in our company’s growth.
+
+This isn’t a gig for just any coder. If you’re looking for easy money with copy-paste  scripts, this isn’t for you. If you’re the kind of dev who thinks ahead, builds efficiently, and actually understands , keep reading.
+
+This starts as a paid project ($250) to fix deployment and ensure stability. If you deliver, we’ll expand your role into ongoing work or even a Lead Developer (CTO) position with 15% equity.
+
+🛠 What You’ll Do (Immediate Task)
+✅ Fix deployment issues and optimize  Voice Pro
+✅ Work with FastAPI, Docker, MongoDB, AWS, Open (or close variations)
+✅ Ensure stability, performance, and scalability of our  tools
+✅ Communicate clearly and efficiently (English fluency + video interview required)
+✅ Think beyond just ""writing code""—we need a builder, not just a coder
+
+🔍 Who We’re Looking For
+Real-World Experience: You’ve built  or automation solutions that actually work, not just tutorials.
+Strong English & Communication: If we can’t have a normal, detailed conversation about , it won’t work.
+Independent, Fast Thinker: I don’t micromanage, and I expect you to move with purpose.
+Full-Stack Capable: Preferably well-versed in multiple stacks, especially -heavy ones.
+Based in the USA (DMV Preferred): Long-term, we want a team that can meet up for BBQs, fishing trips, and company events when we get there.
+💰 What’s in It for You?
+✔ $250 to start (paid test project, quick deployment fix)
+✔ Ongoing contract work (if you prove yourself)
+✔ CTO offer (15% equity) for the right candidate
+✔ Build with a startup that actually delivers high-quality  solutions
+✔ Work directly with the founder—no corporate nonsense, just real execution
+
+⚡ How to Apply
+Send:
+1️⃣ A brief intro about you and your experience.
+2️⃣ Examples of /automation projects you’ve worked on.
+3️⃣ Your availability to start (ASAP preferred).
+4️⃣ Confirmation that you’re open to a video interview (non-negotiable).
+
+🚨 If you can’t meet these requirements, don’t apply. We move fast, and we’re only looking for top-tier, serious candidates.
+
+Let’s talk if you’re ready to build something big.
+
+Why This Version Works:
+✔ Attracts serious developers—No fluff, just real work.
+✔ Filters out scammers and weak applicants—Verifiable experience, video interview required.
+✔ Speaks to partner-minded people—Equity offer, long-term vision.
+✔ Emphasizes MidAtlantic ’s real potential—Not a random startup, but something scalable.",Artificial Intelligence,React,Python,Product Management,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Marketing Expert Needed to Develop Targeted Campaign for C-Level Executives,https://www.upwork.com/jobs/span-class-highlight-span-Marketing-Expert-Needed-Develop-Targeted-Campaign-for-Level-Executives_~021909231618010018513/?referrer_url_path=/nx/search/jobs/,AI,Hourly,30.0,60.0,30.0,8.0,,10800.0,"We are seeking an experienced  Marketing Expert to design and implement a marketing campaign aimed at engaging CEOs, business owners, and senior business leaders. Our goal is to connect with decision-makers interested in integrating  strategies into their organizations.​
+
+Key Responsibilities:
+
+Lead Generation: Implement -driven techniques to identify and engage potential clients who have the authority to make purchasing decisions regarding our  assessment services.​
+
+Campaign Development: Create a comprehensive marketing strategy utilizing  tools to identify and target qualified leads among top-level executives.​
+
+
+Potential for Ongoing Collaboration:
+
+Beyond this initial project, there is potential for ongoing collaboration. As our company expands, we anticipate the need for additional marketing support for our clients. We are interested in establishing a long-term relationship where you may serve as a subcontractor to fulfill these future marketing needs.​
+
+Ideal Candidate:
+
+Proven experience in -driven marketing campaigns targeting high-level executives.​
+
+Strong understanding of  technologies and their application in business.​
+
+Expertise in content creation tailored for a C-suite audience.​
+
+Proficiency in using  tools for lead generation and marketing analytics.​
+
+Deliverables:
+
+A detailed marketing plan with timelines and expected outcomes.​
+
+High-quality content pieces designed for executive engagement.​
+
+Regular performance reports with data-driven insights.",Artificial Intelligence,Lead Generation,Search Engine Optimization,Marketing Strategy,Email Marketing,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+GCP /ML Engineer – Generative  & Document  (Onsite travel to Ohio Required),https://www.upwork.com/jobs/GCP-span-class-highlight-span-Engineer-Generative-span-class-highlight-span-amp-Document-span-class-highlight-span-Onsite-travel-Ohio-Required_~021907142419569855234/?referrer_url_path=/nx/search/jobs/,AI,Hourly,75.0,80.0,30.0,18.0,,41850.0,"We are seeking a talented GCP /ML Engineer with expertise in Generative  and Document  to join our team. This hybrid position will require onsite travel to Ohio. The ideal candidate will have a strong background in machine learning principles and experience with Google Cloud Platform tools. You will be responsible for designing and implementing  solutions that enhance our document processing capabilities. If you thrive in a fast-paced environment and are ready to make an impact, we want to hear from you!
+
+The ideal candidate will have deep knowledge of GCP’s  and data services, and a proven ability to deliver high-impact machine learning solutions in a fast-paced, client-facing environment.
+
+Key Responsibilities:
+•Lead the development and deployment of machine learning models using GCP  services (Vertex , Document , etc.)
+•Apply advanced prompt engineering techniques for entity extraction using Generative 
+•Build and fine-tune custom classification and extraction models
+•Develop and execute data labeling strategies, both manual and automated
+•Architect solutions for document categorization and entity recognition
+•Guide stakeholders on best practices for ML lifecycle, model evaluation, and production-readiness
+•Translate complex  outputs into actionable insights for business users
+•Collaborate with cross-functional teams to ensure successful project delivery
+
+Required Skills & Experience:
+•Strong hands-on experience with Google Cloud Platform, including:
+•Vertex  (including Vertex  Studio and pipelines)
+•Document  (Custom Classifier and Custom Extractor)
+•BigQuery and other GCP data services
+•Demonstrated expertise in developing Generative  solutions (LLM integration, prompt design, fine-tuning, etc.)
+•Proficiency in machine learning workflows: data preprocessing, training, validation, evaluation, deployment
+•Experience designing and implementing taxonomy frameworks for document classification
+•Ability to develop labeling strategies and manage training/test datasets effectively
+•Excellent communication and consulting skills, with the ability to interface with executive stakeholders
+•Strong problem-solving skills and a consultative, outcomes-driven mindset
+
+Preferred Qualifications:
+•Prior experience working on document-centric  projects (invoices, forms, contracts, etc.)
+•Familiarity with data governance, quality assurance, and model accuracy benchmarks
+•Background in  project scoping and feasibility planning",Artificial Intelligence,Machine Learning,Tensorflow,Neural Network,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Python -Agent Developer,https://www.upwork.com/jobs/Python-span-class-highlight-span-Agent-Developer_~021909142592418973295/?referrer_url_path=/nx/search/jobs/,AI,Hourly,40.0,45.0,30.0,8.0,,10200.0,"I'm developing an -Agent for Deportation Defense (Immigration) It's Built on:
+
+NLP - SpaCY
+Machine Learning - Scikit-Learn
+ Framework - Crewai
+
+I do not have the skill-set to make it actually work, I am hiring a developer to help me create something atleast workable to seek large-scale funding from U.S Based immigration firms. Can turn into long-term opportunity.
+
+Looking to Hire U.S based developers who understand Python, Crewai and -Agents in General. This opportunity would be part-time weekly with anticipated milestones set per week. The goal is to have something that works within 1-2 months for GTM.
+
+I have existing code, program notes that a developer can read and understand the vision and direction of the program. Please message me if your interested.",Artificial Intelligence,Python,Machine Learning,,,Artificial Intelligence,Artificial Intelligence,,,Ai Agent Development,Ai App Development,
+Content Creator Specialist Opportunity,https://www.upwork.com/jobs/span-class-highlight-span-Content-Creator-Specialist-Opportunity_~021909320982272587076/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,2000.0,2000.0,"Branding & Location Adaptation:
+
+We service multiple locations, but it's not feasible to plan photoshoots and video shoots everywhere. For example, we have footage of us working in a warehouse, but we need to transform that footage to look like a data center, which is another type of location we service. Essentially, we need someone who can take existing visuals and adapt them to fit different environments and use cases.
+
+Recruiting (Visual Consistency Across Markets):
+
+Recruiting is a big part of what we do. Instead of coordinating full photoshoots for every location, we want someone who can create realistic photography through . For example, we could start with visuals meant for recruiting in Iowa, and once perfected, replicate that same imagery for other markets like inner-city Chicago. This would allow us to maintain brand consistency across various locations without the logistical challenges of constant shoots.
+Additionally, a lot of our content will involve CGI and high-quality digital imagery, so we're looking for someone with both the skill and creativity to handle that aspect as well.
+
+Since this is a long-term partnership, we're looking for someone with the talent, creativity, and availability to work with us on various projects.",Artificial Intelligence,Make.Com,,,,,,,,Ai Agent Development,Openai Api,
+Cto,https://www.upwork.com/jobs/Cto_~021906139419878254532/?referrer_url_path=/nx/search/jobs/,AI,Hourly,45.0,500.0,30.0,24.0,,196200.0,"🚀 Upwork Job Post: Blockchain & Web3 Tech Lead for Circular Economy Project
+
+Title: Seeking Blockchain/Web3 Specialist to Build Tokenized Circular Economy & Digital Supply Chain
+
+📌 Job Overview
+
+
+“MetaFigital: Modular, Tokenized, and Now Smart—The -Powered Operating System for Circular Commerce.”
+	•	Previously: 3-chain modular system (Ecological, Energy, Syscom)
+	•	Now: A 3-chain system powered by FLUX  Core, an intelligent agent that learns, adapts, and personalizes circularity.
+
+Project Description We are developing a phygital (physical + digital) platform for circular commerce, built on a 3-chain modular blockchain system, and now enhanced with an adaptive  agent (FLUX  Core).
+The 3 Pillars of the Platform:
+	1.	Ecological Ledger Blockchain: Tracks verified actions—plastic, carbon, energy, etc.
+	2.	Energy Blockchain (VPP): Manages microgrid and peer-to-peer renewable energy flows.
+	3.	Syscom Blockchain: Handles retail logistics, digital ownership, and gamified sustainability services.
+Now introducing:
+FLUX  Core — The Intelligent Apprentice
+	•	Purpose: Learns from every interaction, optimizing sustainability decisions and product lifecycles.
+	•	Functions:
+	•	Personalizes eco-recommendations for users
+	•	Automates local hub operations based on resource and behavior patterns
+	•	Integrates with token economics for real-time gamification
+Imagine a smart eco-assistant that understands your footprint and guides you to rewards, savings, and impact.
+
+Updated Call for Talent 
+“We’re not just building blockchains. We’re building a planetary operating system for circular living—powered by  and rooted in transparency.”
+We are seeking:
+	•	Unity +  developer to prototype the FLUX Agent (gamified digital twin assistant)
+	•	Blockchain dev to connect the 3-chain infrastructure with eco-action smart contracts
+	•	Full-stack dev with experience in ML/ model deployment, decentralized systems, and Web3 tokenomics
+
+
+
+
+
+
+
+
+We’re building Metafigital—a first-of-its-kind Web3-powered circular economy system that bridges sustainability, blockchain, and digital commerce. We’re looking for a blockchain specialist and tech strategist who can help architect and implement key components of our system, including:
+
+✔ Smart contract development for ecological credit tokenization (CO2, Plastic, Energy, Biodiversity Credits)
+✔ Secure, verifiable transaction layers using a Decentralized Physical Infrastructure Network (D-PIN)
+✔ Web3-powered gamification through Reclaim Game, our interactive sustainability rewards system
+✔ Blockchain-based digital supply chain integration
+
+This is more than just another crypto project—this is a real-world, high-impact system that blends Web3, , and sustainability into a decentralized ecosystem for commerce, energy, and production.
+
+📌 What We Need From You
+
+We’re looking for a technical architect and builder who can:
+✅ Develop & deploy smart contracts (ERC-20, ERC-721, or custom blockchain solutions)
+✅ Design a tokenized rewards system with secure, transparent, and verifiable credit issuance
+✅ Integrate decentralized storage and on-chain verification for ecological credit tracking
+✅ Ensure security, scalability, and real-time validation through modular blockchain components
+✅ Work closely with a visionary founder (non-tech) to bring this system to life
+
+We need someone who thinks beyond just code—someone who understands how to structure Web3 systems that work in real-world commerce and sustainability applications.
+
+📌 Preferred Skills & Experience
+
+✔ Blockchain & Smart Contracts – Solidity, Rust, or relevant blockchain stack
+✔ Experience with Web3, DePIN, and tokenomics – Understanding of real-world asset tokenization, energy trading, or ecological credits is a plus
+✔ Security-first mindset – Preventing double-counting, fraud, and ensuring verifiable impact
+✔ Understanding of  & IoT integration – (Bonus) Ability to integrate real-time data tracking for sustainability
+✔ Startup or DAO experience – Ability to work in a fast-moving, high-impact environment
+
+📌 Why Join?
+
+🚀 Be part of something groundbreaking – We’re not building another speculative token—we’re building a real system with impact.
+💰 Paid Contract with Potential for Long-Term Partnership – If you prove to be the right fit, this could transition into a lead role or partnership opportunity.
+🌍 Make Web3 Matter – This isn’t just tech for tech’s sake—we’re creating a system that makes sustainability profitable and scalable.
+
+📌 How to Apply
+
+Interested? Send us:
+🔹 Your experience with blockchain, smart contracts, and tokenization
+🔹 Any relevant past projects (GitHub, portfolios, case studies, etc.)
+🔹 Your thoughts on how blockchain can drive real-world circular economies
+
+💡 Bonus: If you have ideas on how you’d approach securing ecological credits through blockchain, let’s talk.
+
+🚀 Ready to Build the Future of Web3 & Sustainability? Apply Now!",Artificial Intelligence,,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Development,Ai Agent Development,
+VP of Tech,https://www.upwork.com/jobs/Tech_~021907092360702025364/?referrer_url_path=/nx/search/jobs/,AI,Hourly,57.0,60.0,30.0,24.0,,42120.0,"Required Skills/Experience:
+-Deep  expertise building and scaling  native applications and models
+-Thought leadership in platform development, architecture, and scaling.
+-Experience in leading high-performing engineering teams.
+-Deep understanding of cloud computing, microservices, and API design.
+-Experience with real-time communication technologies (video conferencing, chat, messaging).
+-Knowledge of data management, analytics, and reporting.
+-Experience with user authentication, authorization, and security best practices.
+-Strong communication, collaboration, and influencing skills.
+-Experience with Agile methodologies.
+-BS in Computer Science or related field (or equivalent experience).
+-15+ years of software product development experience, with 3+ years in a senior leadership role.
+
+Key Focus on User and Expert Experience:
+-Deep understanding of user experience (UX) and user interface (UI) principles.
+-Focus on building intuitive and engaging interfaces for both customers and experts.
+-Commitment to accessibility and inclusivity.
+-Domain experience in Customer Success, Sales and Services preferred
+
+ Considerations:
+-Knowledge of /ML applications in areas like matching users with experts, content moderation, or personalized recommendations.
+-Understanding of responsible  principles.",Artificial Intelligence,,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Bot,Artificial Intelligence,
+-Powered Script Read-Through App Developer Needed,https://www.upwork.com/jobs/span-class-highlight-span-Powered-Script-Read-Through-App-Developer-Needed_~021910167406270612389/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5000.0,5000.0,"We are seeking a skilled developer to create an -driven mobile application that transforms movie and TV scripts into immersive audio experiences. The app should assign realistic  voices to characters, integrate background sounds, and provide users with customization options for both voices and sounds.
+
+Key Features:
+
+1. Immersive Script-to-Audio Conversion
+Story Magic allows users to upload their screenplay and instantly convert it into a fully produced audio experience. Unlike basic text-to-speech tools, the platform uses intelligent scene parsing to match the emotional tone, pacing, and structure of the script — giving writers and filmmakers the ability to hear their story in a compelling, cinematic format.
+
+2. Smart Voice Assignment with Customization
+Story Magic uses -powered script analysis to automatically scan uploaded screenplays and intelligently assign voice profiles to each character. The system reads character cues, scene descriptions, and dialogue patterns to match each role with a realistic  voice that reflects the character’s tone, personality, and emotional weight — ensuring a compelling and authentic listening experience right out of the box.
+
+Users can instantly preview and swap voices for any character or narrator through an intuitive menu, customizing pitch, energy level, and speaking style to better align with their vision. Whether testing different vocal dynamics, simulating alternate casting options, or adjusting for tone, this feature allows for creative flexibility without technical complexity.
+
+It’s like holding a live casting session — only faster, frictionless, and mobile.
+
+3. Realistic  Voice Cloning
+The app uses advanced  voice cloning to generate lifelike character performances with natural cadence, tone, and emotional nuance. Voices are customized to match character descriptions, allowing for more authentic scene dynamics. This gives users a strong sense of casting fit and character presence — far beyond robotic or monotone alternatives.
+
+4. Professional Narration Engine
+Every script is guided by a high-quality, story-driven narrator who provides continuity, transitions, and exposition where needed. The narration adds clarity to the audio experience, especially in early-stage drafts where scenes may shift rapidly or include visual cues.
+
+5. Dynamic Ambient Soundscapes
+Story Magic automatically layers ambient background sound — such as bustling cities, quiet forests, echoing halls, or military tents — based on scene descriptions and context cues in the script. This adds spatial depth and mood, helping users visualize the world of the story through audio.
+
+6. Mobile-First Script Upload and Editing
+Optimized for iOS and Android, Story Magic offers seamless script import options from cloud services, email, or integrated writing tools. A clean, intuitive interface allows users to quickly upload, preview, and revise scripts without switching platforms or desktop software.
+
+7. Scene-by-Scene Playback Control
+Users can listen to individual scenes, replay specific dialogue, or jump between acts with ease. This segmented playback system helps users focus on pacing, fine-tune edits, or rehearse specific moments in isolation.
+
+8. Shareable Audio Links
+Completed audio drafts can be shared via private streaming links with collaborators, agents, producers, or mentors. This feature is especially useful for pitching, note sessions, and early-stage development, making it easier to generate feedback without requiring full table reads or live sessions.
+
+9. SAG-Compliant Voice Licensing System (In Development)
+In alignment with the Screen Actors Guild, Story Magic is developing a voice licensing system that allows professional actors to license their voices for use within the platform. This ensures ethical voice usage, generates new revenue for industry professionals, and positions Story Magic as an industry-approved solution in the era of  performance.
+
+10. Revenue Sharing for Film Industry Support
+A percentage of Story Magic’s revenue will go toward funding the SAG-AFTRA Foundation, serving as a supplemental safety net for artists and creators facing unemployment or industry disruptions. This built-in support mechanism reinforces the company’s commitment to elevating and protecting the creative workforce.
+
+11. Education-Friendly Access for Film Schools
+Story Magic offers tailored access and licensing options for film schools, writing programs, and academic institutions. Students can use the platform to hear their scripts in action, gaining practical insight into performance, tone, and scene structure in a way no textbook or static script can provide.
+
+
+AUDIO EXAMPLED OF WHAT THE DEVELOPED APP SHOULD BE CAPABLE OF IS AVAILABLE UPON REQUEST FROM SERIOUS CANDIDATES.
+
+
+REQUIRED EXPERTISE
+
+App Development: Proven experience in developing web or mobile applications, preferably with  and audio processing capabilities.
+
+Natural Language Processing (NLP): Proficiency in implementing NLP algorithms to analyze and interpret script elements.
+
+ Voice Synthesis: Familiarity with  voice technologies and the ability to integrate them effectively.
+
+Sound Design: Experience in incorporating sound effects and background audio into applications.
+
+User Interface (UI/UX) Design: Skills to develop a user-friendly interface that facilitates easy customization and control.
+
+Cloud Computing: Knowledge of deploying and managing applications on cloud platforms to handle processing demands.
+
+APPLICATION INSTRUCTIONS:
+
+Interested candidates should submit:
+
+A brief overview of their relevant experience and qualifications.
+
+Examples of previous projects, particularly those involving , NLP, or audio processing.
+
+A proposed timeline and budget for the project.
+
+We look forward to collaborating with a talented professional to bring this innovative application to life.",Artificial Intelligence,Natural Language Processing,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai App Development,Artificial Intelligence,
+Prompt Engineer for UI Design tool,https://www.upwork.com/jobs/Prompt-Engineer-for-Design-tool_~021911840694783907750/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,200.0,30.0,4.0,,16200.0,"Looking to generate 2 prompts for our  convo tool.
+
+1) The ability to generate an ""outline"" for an interview based on a transcription and additional screenshots uploaded to our canvas.
+
+2) A prompt for the interviewer to follow, keeping in line with the template we generate.
+
+Attached img for reference, happy to discuss further",Artificial Intelligence,Prompt Engineering,Llm Prompt Engineering,Image Prompt Engineering,,,,,,,,
+"Hiring a Website, , and Automation Specialist",https://www.upwork.com/jobs/Hiring-Website-span-class-highlight-span-and-Automation-Specialist_~021911806597173902912/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,700.0,700.0,"Hiring: Tech & Automation Specialist to Rebuild & Streamline Website
+
+We are a boutique matchmaking service  — and we’re growing. We’re looking for a tech-savvy, solutions-oriented specialist who can rebuild our website, improve our automations, and ensure everything is running securely and efficiently behind the scenes.
+
+If you know how to connect design with function — and love making systems smarter, smoother, and more beautiful — let’s talk.
+
+What You’ll Be Responsible For:
+
+✅ Website Redesign & Optimization
+	•	Rebuild our existing WordPress (or Squarespace/Wix) site for better design, navigation, and user experience
+	•	Integrate scheduling tools, lead magnets, testimonials, and an events/course section
+	•	Create a more masculine, luxury feel while appealing to high-achieving men and women
+	•	Incorporate tracking (Google Analytics, Hotjar, etc.) to measure site performance
+	•	Ensure the site is mobile-friendly, fast, and optimized for SEO
+
+✅ CRM Automation & Tracking (Zoho CRM)
+	•	Automate workflows for lead intake, follow-ups, surveys, and post-date feedback
+	•	Integrate tools like Typeform, Calendly, PayPal, DocSend, and Gmail into Zoho
+	•	Automate and track social media outreach (Phantombuster + Zapier)
+
+✅ Website Security & Tech Maintenance
+	•	Ensure the site is secure (SSL, backups, anti-spam/firewall) and GDPR compliant
+	•	Monitor uptime and fix bugs, broken links, or issues as needed
+
+✅  Integration
+	•	Use  tools to help with repetitive admin tasks (data entry, reminders, client updates)
+	•	Help implement Otter., Fireflies., or similar tools for feedback tracking and testimonial generation
+
+✅ Email Marketing & Lead Capture
+	•	Improve newsletter signup and lead magnet flow
+	•	Set up Zoho Campaigns or similar for email segmentation and follow-up automation
+
+⸻
+
+Who This Is For:
+	•	Experienced with CRM systems (Zoho preferred) and automation tools like Zapier
+	•	Skilled in WordPress/Squarespace website design, tracking tools, and basic SEO
+	•	Knowledgeable about website security, backups, and performance optimization
+	•	Comfortable using  and automation tools to save time and improve systems
+	•	Has strong attention to detail and can manage multiple tools and integrations
+	•	Bonus if you have experience with brands targeting high-income, professional audiences
+
+⸻
+
+📍 Location: Remote (Atlanta-based is a plus)
+💼 Engagement: Open to freelancers, consultants, or independent contractors",Artificial Intelligence,Website Redesign,Website Security,Wordpress,Email Marketing,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Write a 5 page document about   and platform implementation for a business,https://www.upwork.com/jobs/Write-page-document-about-span-class-highlight-Artificial-span-span-class-highlight-Intelligence-span-and-platform-implementation-for-business_~021913335267147901374/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,30.0,30.0,"I need a document written about  
+sections include:
+1.  Introduction
+2. Types of 
+3.  tools
+4.  Platforms
+5.  Service Providers
+6. Implementation of  platform for a business",Artificial Intelligence,Writing,Technical Writing,Content Writing,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,
+Senior Python Engineer for Conversational  & Chatbot Development,https://www.upwork.com/jobs/Senior-Python-Engineer-for-Conversational-span-class-highlight-span-amp-Chatbot-Development_~021894911963852576811/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,100.0,30.0,4.0,,10200.0,"We are seeking a Senior Python Engineer to maintain chatbot solutions using Conversational  platforms and enhance self-service interactions throughout the customer journey. In this role, you will improve conversation flows, automate responses, and ensure a seamless customer experience. You will leverage your expertise in JavaScript for interactive chatbot interfaces and advanced Python skills for backend logic, machine learning integration, and data optimization. Proficiency in NLP libraries such as spaCy, NLTK, and GPT-3 is essential to deliver accurate, contextually relevant responses. You will also utilize AWS tools like Amazon Lex and Amazon Connect to implement and optimize personalized contact center solutions. If this is something that you can help with, we'd love to hear from you!",Artificial Intelligence,Python,Machine Learning,Natural Language Processing,,,,,,Artificial Intelligence,,
+‑Integrated Workflow Developer (Zapier/UiPath/Power Automate),https://www.upwork.com/jobs/span-class-highlight-span-Integrated-Workflow-Developer-Zapier-UiPath-Power-nbsp-Automate_~021913715430132030147/?referrer_url_path=/nx/search/jobs/,AI,Hourly,40.0,40.0,30.0,24.0,,28800.0,"I am building an Upwork team that will be a one-stop-shop for all things . This role will be specifically for creating -integrated automated flows and RPA.
+
+I am fairly new to Upwork and my personal hourly is $40 - which I pass on to you. As we move forward and my freelancer reputation increases, I'll increase the hourly on future jobs for both of us. Target for this role is $80/hr.",Artificial Intelligence,Zapier,Uipath,,,Artificial Intelligence,,,,Azure Openai Service,,
+"Web & App Developer Who Uses  to Work 5x Faster — Old School Experience, New School Tools",https://www.upwork.com/jobs/Web-amp-App-Developer-Who-Uses-span-class-highlight-span-Work-Faster-Old-School-Experience-New-School-Tools_~021909657168989711522/?referrer_url_path=/nx/search/jobs/,AI,Hourly,35.0,70.0,30.0,24.0,,37800.0,"We’re on the hunt for a unicorn: a seasoned web and app developer who’s been coding since the jQuery days—but who now wields  tools like GitHub Copilot, Cursor, and Cline like a Jedi with a lightsaber.
+
+This isn't your typical dev gig. We’re looking for someone who moves fast, works smart, and gets things done with the power of modern -assisted development. If you’re the kind of person who can build scalable, beautiful software in half the time because you know how to prompt like a pro, we want to talk to you.
+
+What We're Looking For:
+✅ 10+ years of real-world, hands-on web/app development experience (no bootcamp fluff—think: you’ve been through browser wars and lived to tell the tale)
+✅ Mastery of at least one major framework (Laravel, Node.js, React, Flutter, etc.)
+✅ Demonstrated use of GitHub Copilot, Cursor, or similar  pair-programming tools
+✅ Fluent in integrating APIs, managing databases, and deploying to modern cloud environments
+✅ Ability to think like a product owner: not just writing code, but solving problems
+✅ Strong command of English and clear communication
+✅ Available at least 10-20 hours/week
+
+Bonus Points:
+
+You’ve written or fine-tuned prompts for  coding assistants
+
+You’ve replaced legacy systems or helped non-tech teams adopt new tools
+
+You’ve built and shipped entire apps solo (or nearly solo)
+
+What You’ll Do:
+You’ll help us build and maintain web and mobile apps—faster and smarter than ever before. You’ll use  tools to draft code, refactor legacy systems, automate tests, and create documentation as you go. This is about multiplying output, not just punching in lines of code.
+
+Why Work With Us:
+We believe in results, not bureaucracy. We’re builders. You’ll be joining a team that values speed, clarity, and good code—and won’t bog you down in meetings. If you prove yourself, there’s long-term work and growth here.",Artificial Intelligence,Mariadb,Postgresql,Nginx,Web Development,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,Javascript
+"Speed up livekit, deepspeech and Cartesia voice agent",https://www.upwork.com/jobs/Speed-livekit-deepspeech-and-Cartesia-voice-agent_~021903338214310020680/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,150.0,150.0,"The purpose of this project will be to identify the source of latency and speed up a Voice  agent that is responding to phone calls. The technology stack is Deepgram for speech to text, Cartesia  for text to speech, openai for the LLM, and livekit for the platform. It is deployed on Kubermetes and uses twilio for trunking.",Artificial Intelligence,Django,,,,Artificial Intelligence,,,,Openai Api,,
+Engineer – Develop $50K–$500K+ Client  Solutions with Super Grok,https://www.upwork.com/jobs/span-class-highlight-span-Engineer-Develop-50K-500K-Client-span-class-highlight-span-Solutions-with-Super-Grok_~021901687678622429509/?referrer_url_path=/nx/search/jobs/,AI,Hourly,50.0,80.0,30.0,24.0,,46800.0,"**Category**: Software Development /  & Machine Learning 
+**Budget**: $50–$80/hour | 20–40 hours/week | Long-term 
+**Location**: Remote 
+**Start Date**: Within a few weeks
+
+---
+
+## About Bridgeline 
+We’re a fast-growing startup delivering -driven solutions to small and medium enterprises ($5M–$50M revenue) in retail, logistics, real estate, marketing, and manufacturing. Our client deals range from $50K to $275K+, driving 20–40% ROI—think $786K gains in 6 months. We leverage cutting-edge tools, including x’s Super Grok, to create transformative automations.
+
+---
+
+## The Role
+We’re seeking an  Engineer to design and deploy high-value  solutions for our clients. You’ll harness Super Grok’s advanced capabilities to build tools that save clients hundreds of hours monthly and generate millions in revenue—think $500K+ deals with enterprise-level impact.
+
+---
+
+## What You’ll Do
+- **Create Client-Facing  Tools**: Develop scalable automations tailored to client needs—e.g., optimizing 50,000+ manufacturing units monthly or syncing 2,000+ real estate leads for $275K+ contracts. 
+  - *Possibility of 1 physical client site visit per larger deal, likely during discovery phase. Full reimbursement provided up to a negotiated amount per occurrence.* 
+- **Utilize Super Grok**: Leverage Grok 3’s Think Mode (step-by-step reasoning) to solve complex client challenges—e.g., cut development time by 20–30% on a $400K logistics optimization tool. Use DeepSearch (real-time data) to infuse market insights into solutions. 
+- **Deliver High-Impact Results**: Build tools that deliver measurable client ROI—e.g., a $450K marketing automation saving 300h/mo and adding $200K/mo in revenue within 6 months. 
+- **Meet Tight Deadlines**: Prototype $175K+ solutions—e.g., a retail  boosting $150K/mo profit—ensuring clients see value fast. 
+- **Focus on Scalability**: Craft enterprise-grade systems—e.g., a $500K supply chain  handling 5,000+ shipments/mo—ready for $50M+ clients. 
+- **Collaborate Cross-Functionally**: Work with project manager, sales and tech to translate business needs into -driven applications, using tools like Trello for sprint management.
+
+---
+
+## Skills We Need
+- ** Expertise**: 3+ years in /ML—proficient in Python, RTILA, TensorFlow, or similar. Experience with advanced models like Grok is a plus. 
+- **Strong Knowledge of Machine Learning**: Expertise in supervised, unsupervised, and reinforcement learning techniques to power client solutions. 
+- **Hands-On Experience**: Familiarity with popular  frameworks and libraries (e.g., PyTorch, Scikit-learn) and generative  architectures. 
+- **Cloud-Based **: Experience with platforms/services (e.g., AWS, GCP) to deploy scalable $500K+ tools. 
+- **Large Language Models (LLMs)**: Knowledge of LLMs and their applications—e.g., enhancing $275K automations with natural language capabilities. 
+- **Automation Development**: Proven track record building bots or workflows—e.g., web scraping, large-scale data syncs for client applications. 
+- **Problem-Solving**: Ability to tackle multi-step logic—Super Grok’s Think Mode will enhance your efficiency. 
+- **Real-Time Data**: Experience with dynamic data sources—DeepSearch will provide an edge for client insights. 
+- **Client Focus**: Translate technical work into tangible client wins—e.g., $1M+ ROI in 12 months. 
+- **Excellent Communication**: Explain  systems clearly to project managers and stakeholders—bridge tech and business goals. 
+- **Project Management Tools**: Experience with Trello or Jira to manage sprints and align with team workflows.
+
+---
+
+## How to Apply
+- Submit your proposal/portfolio—showcase /automation projects with client impact (e.g., $100K+ ROI solutions). 
+- Answer the questions below (if you haven’t used Grok, skip that part—it’s not a dealbreaker):",Artificial Intelligence,Machine Learning,Python,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Generative Ai,
+-Powered Web App for Generating Social Stories for K-12 Learners,https://www.upwork.com/jobs/span-class-highlight-span-Powered-Web-App-for-Generating-Social-Stories-for-Learners_~021912517592437173667/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,18.0,,41850.0,"We’re seeking a skilled full-stack developer (or small dev team) to help build StorySketch—a web application that empowers educators and parents to create personalized, evidence-based social stories for children.
+
+The app will use a wrapper on top of an LLM to generate both screen-friendly and printable stories and visuals based on a user-provided situation or skill (e.g., “fire drill,” “asking for help”). These stories will be grounded in research on social narratives and designed for children with a range of developmental needs.
+
+Core Features:
+- Simple UI for inputting a situation, behavior, or skill
+- LLM-powered text generation (plain language, customizable tone and complexity)
+- -generated images to accompany each story step
+- Adjustable settings: age group, language level, visual detail
+- Ability to save stories in a dashboard and export to PDF or Google Slides
+- (Optional Phase 2) In-app text-to-speech for narrated reading
+
+Ideal Candidate:
+- Proficient in building web apps using modern front-end frameworks (React, Vue, etc.)
+- Experience integrating with Open, Anthropic or similar LLM APIs
+- Familiarity with server-side development and user authentication
+- Bonus: Experience with TTS libraries, PDF generation, or educational tech
+
+Deliverables:
+- Fully functional MVP of the web app
+- User dashboard for saved stories
+- Clean, modular code with documentation
+- Ongoing support or version 2.0 work (optional)
+
+This project blends  innovation with educational impact—perfect for someone excited about building tools that support neurodiverse learners, early childhood development, and inclusive education.
+
+Please apply with a brief note on your relevant experience and links to similar -powered or ed-tech tools you’ve built.",Artificial Intelligence,Web Application,Graphic Design,Deep Learning,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,Artificial Intelligence,Generative Ai,
+agent for buisness soultions,https://www.upwork.com/jobs/span-class-highlight-span-agent-for-buisness-soultions_~021905237350141028292/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,128.0,30.0,8.0,,23160.0,"We are seeking a skilled  Agent Developer to build a custom -powered agent for our business. The  agent will assist with automating tasks, streamlining operations, and improving overall efficiency.
+
+Responsibilities:
+
+Design and develop an  agent tailored to our business needs.
+
+Implement  algorithms to automate repetitive tasks and enhance decision-making.
+
+Integrate the  agent with our existing business systems and applications.
+
+Ensure the  agent is scalable, reliable, and secure.
+
+Provide technical documentation and ongoing support.
+
+Requirements:
+
+Proven experience in developing  agents or conversational  systems.
+
+Proficiency in  frameworks like TensorFlow, PyTorch, or similar.
+
+Strong programming skills in Python, Java, or other relevant languages.
+
+Experience with APIs, databases, and cloud platforms.
+
+Understanding of natural language processing (NLP) and machine learning.
+
+Problem-solving skills and attention to detail.
+
+Preferred Qualifications:
+
+Experience with business automation and -driven process optimization.
+
+Familiarity with integrating  agents into CRM, ERP, or other business management systems.
+
+Previous work on  chatbots, virtual assistants, or -based customer support solutions
+
+
+Budget:
+Please provide your estimated cost and timeline for development.
+
+How to Apply:
+Submit your proposal with examples of previous  agent projects, relevant experience, and your approach to this project.
+
+We look forward to collaborating with a talented  developer to enhance our business operations!",Artificial Intelligence,,,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Agent Development,Ai Bot,
+Survey: Share your thoughts on using  agents in your work as Financial Services Sales Agents,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Financial-Services-Sales-Agents_~021907582130360035720/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Securities, Commodities, and Financial Services Sales Agents or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,Sales,Security Appliance,Commodity Management,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Survey: Share your thoughts on using  agents in your work as a Tax Preparer,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Tax-Preparer_~021914004555540208323/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Tax Preparers or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,Tax Preparation,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Survey: Share your thoughts on using  agents in your work as an Advertising and Promotions Manager,https://www.upwork.com/jobs/Survey-Share-your-thoughts-using-span-class-highlight-span-agents-your-work-Advertising-and-Promotions-Manager_~021903246171884710074/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5.0,5.0,"We are researchers from Stanford University studying   (). In this study, we’re interested in learning how people across different occupations want  agents to assist in their work. This survey targets people who work as Advertising and Promotions Managers or had experience in this area before. Please ensure you satisfy this requirement before you participate in this study.
+
+What are  agents?
+
+An  agent refers to a system or program that is capable of autonomously performing certain tasks on behalf of a user or another system by designing its workflow and utilizing available tools.
+
+Why Participate in This Survey?
+
+While there have been many hypes about  agents, most discussions focus on full automation. It is unclear how these agents could support individual workers and what is the best way of incorporating these agents in users' workflows. Your participation will help us better understand how to develop  agents that enhance human work in ways that truly benefit workers.
+
+What Will You Do?
+
+This survey consists of three parts:
+
+1. Share your occupation and daily workflow (we make this part of the survey interactive and more engaging - just like a small interview!)
+
+2. Based on your answers in the previous part, you will see specific tasks from your work. For each task, you will need to answer the same set of rating questions.
+
+3. Answer brief demographic questions
+
+The survey will take approximately 10–15 minutes.",Artificial Intelligence,,,,,Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Looking for an  engineer to build a document generation application,https://www.upwork.com/jobs/Looking-for-span-class-highlight-span-engineer-build-document-generation-application_~021910458995883472942/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,1000.0,1000.0,"‘the means of obtaining as much variety as possible, but with the greatest possible order...is the means of obtaining as much perfection as possible.... . ‘perfection is at the same time the simplest in hypotheses and the richest in phenomena.’ — gottfried wilhelm leibniz
+
+‘getting the requirements right is a very difficult task, and therefore a task that is fraught with errors. an error that is caught during requirements development can be fixed for about 10% of the cost associated with an error caught during coding. errors caught during maintenance in the operation of the system cost about 20 times that of an error caught during coding and 200 times the cost of an error caught during requirements development.’ — dennis buede the engineering design of systems
+
+‘i once worked with jared davis, a documentation wizard whose documentation was so good that i’d go to him to understand how a module worked before i talked to the owner the module. as far as i could  tell, he wrote documentation on things he was trying to understand to make life easier for himself, but his documentation was so good that it was a force multiplier for the entire company. later, at google, i noticed a curiously strong correlation between the quality of initial design docs  and the success of projects.’ — dan luu  
+
+Hi, I am a former Y-Combinator founder looking to hire an  Engineer who is interested in becoming a full-stack  developer to build a document generation application. I am looking for someone to take my mvp thesis document, convert the thinking into a requirement and specs document and then a project plan and own the vibe coding execution of the v1 of the product. 
+
+Thanks!",Artificial Intelligence,Llm Prompt Engineering,Python,Api,,Artificial Intelligence,,,,Artificial Intelligence,,
+"Build a Private Custom GPT Using Internal Data (YouTube Transcripts, Email .mbox, and .txt Files)",https://www.upwork.com/jobs/Build-Private-Custom-GPT-Using-Internal-Data-YouTube-Transcripts-Email-mbox-and-txt-Files_~021910059239337028521/?referrer_url_path=/nx/search/jobs/,AI,Hourly,50.0,60.0,30.0,18.0,,29700.0,"Hi there! I’m looking to hire an /LLM expert to help build a private, organization-specific GPT assistant for our medical team.
+
+I run a health-focused startup, and we’re building an internal tool for our doctors to use when replying to emails from patients. We have a collection of:
+
+YouTube videos (we’ll provide URLs)
+
+.mbox email history
+
+.txt documents and clinical notes
+
+🧠 What we need:
+We’d like your help turning this content into a secure, private GPT assistant powered by a Retrieval-Augmented Generation (RAG) pipeline. The tool should be able to pull relevant information from our knowledge base and help our doctors draft personalized, accurate, and helpful responses to patient emails.
+
+📦 Deliverables:
+Data ingestion pipeline (YouTube transcripts, .mbox parsing, .txt processing)
+
+Embedding + vector database setup (Pinecone, FAISS, etc.)
+
+RAG-based chatbot or assistant using Open or open-source LLMs
+
+Private and secure deployment (cloud or local)
+
+Optional: lightweight web UI or email reply assistant",Artificial Intelligence,Python,Langchain,Youtube Data Api,,Artificial Intelligence,,,,Openai Api,,
+Video ad narration,https://www.upwork.com/jobs/Video-narration_~0189cc46acb2bb36ed/?referrer_url_path=/nx/search/jobs/,AI,Hourly,50.0,85.0,30.0,4.0,,8100.0,"Narrate a script for a 30-sec ad of our product. 
+Target audience is Shopify professional store owners, technology savvy, and long time users of the platform. US based. 
+A casual and positive voice.",,,,,Us English Dialect,,,,,,,
+"Hiring a Website, , and Automation Specialist",https://www.upwork.com/jobs/Hiring-Website-span-class-highlight-span-and-Automation-Specialist_~021899526557977217115/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,1500.0,1500.0,"we’re looking for a tech-savvy specialist to help streamline our operations! If you have experience with CRM implementation, website tracking & security, automation, and  integration, we want to hear from you.
+
+What You’ll Be Doing:
+
+✅ Zoho CRM Setup & Automation – Optimize our CRM, automate outreach, track client data, and integrate survey responses.
+✅ LinkedIn & Instagram Messaging Automation – Use Phantombuster & Zapier to track responses in Zoho CRM.
+✅ Website Updates & Tracking – Ensure our website is up-to-date, running smoothly, and tracking key performance metrics.
+✅ Website Security & Maintenance – Implement security measures to protect client data and prevent vulnerabilities.
+✅  Implementation – Use  tools to automate repetitive tasks like data entry, lead tracking, and follow-ups.
+✅ Email Marketing Automation – Assist with Zoho Campaigns, segmentation, and re-engagement campaigns.
+
+Who We’re Looking For:
+
+🔹 Experience with Zoho CRM, Phantombuster, Zapier (or similar automation tools)
+🔹 Website tracking & analytics experience (Google Analytics, Hotjar, etc.)
+🔹 Strong understanding of cybersecurity best practices for websites
+🔹 Familiarity with website platforms (WordPress, Squarespace, Wix, etc.)
+🔹 Knowledge of email marketing tools (Zoho Campaigns, Mailchimp, etc.)
+🔹 Strong problem-solving and tech troubleshooting skills
+
+Work Details:
+
+📍 Remote or Atlanta-based preferred
+📅 Part-time or project-based to start
+💡 Open to consultants or freelancers",Artificial Intelligence,Website Redesign,Sales Funnel,Wordpress,Website Traffic Report,Artificial Intelligence,Artificial Intelligence,,,Ai Chatbot,,
+Expert to Fine-Tune a Pre-Trained Model for Retail & E-Commerce Consulting,https://www.upwork.com/jobs/span-class-highlight-span-Expert-Fine-Tune-Pre-Trained-Model-for-Retail-amp-Commerce-Consulting_~021907102496262877374/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,2000.0,2000.0,"We are an innovative startup aiming to revolutionize the way retail and e-commerce businesses use  to optimize their operations. We're developing an -powered consultant that provides data-driven insights on sales forecasting, customer behavior analysis, and pricing optimization.
+
+We are seeking an experienced /ML Engineer or Data Scientist with expertise in fine-tuning large language models (LLMs) for custom applications. The ideal candidate will work with us to adapt a pre-trained  model to analyze competitor prices & features and provide valuable insights and decision-making capabilities tailored to the unique needs of retail and e-commerce businesses.
+
+
+
+Responsibilities:
+
+Fine-tune a pre-trained  model (e.g., GPT-4o, Llama 3) to enhance its ability to handle retail and e-commerce-specific tasks (e.g., product recommendations, pricing optimization, competitor analysis, demand forecasting, customer segmentation).
+
+Prepare and preprocess data for training, including retail data such as customer behavior, sales history, product information, etc.
+
+Communicate with our team on a regular basis to ensure the fine-tuned  aligns with our business objectives.
+
+Test and optimize the fine-tuned model to ensure it delivers accurate and actionable insights for e-commerce and retail clients.
+
+Document the process for future improvements and knowledge transfer.
+
+
+
+Requirements:
+
+Proven experience in fine-tuning pre-trained models (e.g., GPT-4, Llama 3, BERT).
+
+Strong background in Natural Language Processing (NLP), machine learning, and deep learning.
+
+Experience with Python and machine learning libraries (e.g., TensorFlow, PyTorch, Hugging Face, Scikit-learn).
+
+Experience with data preprocessing, working with datasets, and ensuring data quality for  training.
+
+Familiarity with cloud platforms (e.g., AWS, Google Cloud, or Azure) and related machine learning tools (e.g., SageMaker, Vertex ).
+
+Ability to work collaboratively with a non-technical team to understand business needs.
+
+Strong problem-solving skills and a passion for applying  to real-world business problems.
+
+
+
+How to Apply:
+
+Please provide the following in your application:
+
+A brief cover letter explaining your experience with fine-tuning  models and how you can help us with this project.
+
+Portfolio or case studies of past  projects, particularly those involving fine-tuning pre-trained models.
+
+Your project cost estimate and availability for this job.
+
+A brief outline of your approach to fine-tuning an  model for our retail/e-commerce use case.",Artificial Intelligence,Machine Learning,Python,Shopify,Llama 3,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Looking for a dev who can build the Savaan MVP in React + Firebase with Open integration.,https://www.upwork.com/jobs/Looking-for-dev-who-can-build-the-Savaan-MVP-React-Firebase-with-Open-span-class-highlight-span-integration_~021906234378118235720/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,5000.0,5000.0,"I'm building a SaaS MVP called Savaan, a business insights platform that takes uploaded data (CSV/Excel), uses  to generate weekly summaries, and displays insights in a user dashboard.
+
+We need:
+
+✅ Auth system (Firebase Auth)
+
+✅ Upload flow (CSV → backend)
+
+✅  integration (Open API call)
+
+✅ Dashboard to show insights by user
+
+✅ Weekly report auto-emails
+
+✅ Clean, modern UI (Figma reference provided)
+
+✅ Optional: PDF export or smart Q&A feature
+
+Tech Stack:
+
+Frontend: React (Tailwind or Next.js)
+
+Backend: Firebase (Firestore + Functions)
+
+: Open GPT-4 API
+
+Hosting: Vercel or Firebase Hosting
+
+Timeline: 3-6 months or more if needed
+Budget: $3,500 - $5,000 (flexible for right fit)
+
+What I’ll Provide:
+
+Full feature spec
+
+Figma mockups
+
+Open prompt templates
+
+Flow diagrams + support throughout
+
+Looking for a clean, reliable build and someone who can communicate updates clearly. Bonus if you’ve built SaaS before or worked with Open.",Artificial Intelligence,Tailwind Css,Firebase,Sendgrid,Chart.Js,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Openai Api,,
+Back-End Developer Needed: OCR/ Processing of 12-Month Bank Statements to Excel,https://www.upwork.com/jobs/Back-End-Developer-Needed-OCR-span-class-highlight-span-Processing-Month-Bank-Statements-Excel_~021891953143468053599/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,3500.0,3500.0,"Job Description
+Overview:
+We’re looking for a skilled back-end developer with experience in Google Document , OCR, and data classification to build a robust pipeline that automatically converts 12-month batches of PDF bank statements into structured Excel reports.
+
+A key part of this project involves an initial testing phase to compare Google Document 's specialized bank statement processing against alternative OCR/ methods, clearly determining which delivers the best speed and accuracy.
+
+Project Scope:
+1. OCR/ Comparative Testing Phase:
+Side-by-side testing of:
+
+Google Document  (bank statement processor)
+
+Alternative custom OCR solutions (e.g., Amazon Textract, Tesseract, EasyOCR, Mistral-based approaches)
+
+Evaluate accuracy (target: 95–99% extraction accuracy) and speed (under 3 minutes per 12-month batch).
+
+Provide clear, data-backed recommendations on the optimal solution after testing.
+
+2. Transaction Classification and Validation:
+Classify deposits automatically as Income or Non-Income.
+
+Identify and flag:
+
+Missing or incomplete monthly statements
+
+Large or suspicious deposits
+
+Potential discrepancies or anomalies
+
+Allow manual overrides on uncertain classifications.
+
+3. Final Excel Output:
+Generate structured, polished Excel workbooks (template attached) with:
+
+Separate tabs for personal and business deposits
+
+Highlighted flags and summaries
+
+User-editable fields to manually adjust calculations if needed
+
+4. RESTful API & Documentation:
+Build a clean RESTful API (Python/FastAPI or Node.js) to seamlessly handle PDF uploads and deliver completed Excel reports.
+
+Provide clear, detailed documentation for easy integration.
+
+Resources Provided:
+Extensive set of bank statements for thorough comparative testing
+
+Attached Excel template demonstrating required output format clearly
+
+Skills & Requirements:
+Proven OCR expertise (Google Document , Amazon Textract, custom OCR approaches)
+
+Experience with structured financial data extraction and classification
+
+Excel file automation skills (OpenPyXL, Pandas, SheetJS)
+
+Ability to build and document robust RESTful APIs
+
+Cloud deployment knowledge (Google Cloud/AWS)
+
+Timeline & Milestones:
+Week 1:
+
+Conduct comparative testing between Google Document  and custom OCR solutions using provided statements
+
+Deliver clear evaluation results and recommended approach
+
+Week 2:
+
+Implement classification logic, transaction flagging, and Excel report generation based on chosen OCR solution
+
+Week 3:
+
+Complete full integration, manual override functionality, and API delivery
+
+Final QA and documented solution delivered
+
+How to Apply:
+Please provide:
+
+Description of your direct experience with Google Document  and/or custom OCR/ solutions
+
+Past relevant OCR-to-Excel project examples
+
+Estimated timeline and budget to perform the outlined OCR comparative testing and subsequent development
+
+Why Join Falcon Mortgage?
+Participate in cutting-edge automation in the mortgage industry
+
+Access large, detailed datasets and clear goals
+
+Opportunity for continued involvement and future innovation
+
+We look forward to finding a developer who can carefully test, validate, and recommend the most accurate and efficient OCR solution before building our production-ready system.
+
+Best regards,
+Nick Sharp
+Falcon Mortgage",Artificial Intelligence,Google Sheets Automation,Microsoft Excel,Data Entry,Python,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Ai Builder,,
+Low-Code/No-Code Automation Specialist (with  Integration),https://www.upwork.com/jobs/Low-Code-Code-Automation-Specialist-with-span-class-highlight-span-Integration_~021907487797791304072/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,3000.0,3000.0,"We are seeking a Low-Code/No-Code Automation Specialist to help businesses streamline operations by implementing modern automation solutions. You’ll be responsible for evaluating existing processes, identifying areas for optimization, and deploying solutions using platforms like Make, Zapier, Power Automate, or others — without the need for traditional coding. You'll also work with  agents to enhance workflows, improve decision-making, and reduce manual tasks.
+
+Key Responsibilities:
+
+- Analyze business workflows to identify automation opportunities
+- Design and implement solutions using low-code/no-code platforms
+- Integrate systems and APIs to unify data and enhance efficiency
+- Deploy  agents to assist in tasks such as data processing, customer interaction, and insights generation
+- Collaborate with stakeholders to ensure solutions meet operational goals
+- Document processes and train users on new tools and automations
+ 
+Preferred Experience:
+
+- Hands-on experience with platforms like Make.com, Power Automate, Zapier, Airtable, Notion, or similar
+- Knowledge of API integrations and  automation tools (e.g., Open, Google  tools)
+- Ability to map out workflows and optimize them for efficiency
+- Strong problem-solving and communication skills",Artificial Intelligence,Chatgpt Api,Restful Api,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Azure Openai Service,Artificial Intelligence,
+Build an  Chatbot to Assist with UPS API Documentation,https://www.upwork.com/jobs/Build-span-class-highlight-span-Chatbot-Assist-with-UPS-API-Documentation_~021910505901470385513/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,250.0,250.0,"We're looking to build a lightweight  assistant that can semantically search UPS API documentation and answer user questions. The project involves:
+Chunking documents and creating semantic embeddings
+Setting up a vector database using FAISS
+Designing and tuning prompts for accurate, helpful responses
+Building a clean, usable frontend to interact with the assistant",Artificial Intelligence,Chatbot Development,Python,Api,,,,,,Artificial Intelligence,,
+Agent Development for Website Interaction and CRM Integration,https://www.upwork.com/jobs/span-class-highlight-span-Agent-Development-for-Website-Interaction-and-CRM-Integration_~021912193760877976974/?referrer_url_path=/nx/search/jobs/,AI,Hourly,15.0,35.0,,18.0,,13500.0,"We are seeking a skilled developer to create an  agent capable of interacting with various websites, LinkedIn, and HubSpot. The ideal candidate will have experience in  programming and web automation. Your role will involve designing a system that can navigate websites, gather data, and effectively communicate with LinkedIn and HubSpot APIs. Strong problem-solving skills are essential. If you are passionate about  technology and have a track record of delivering results, we would love to hear from you!",Artificial Intelligence,Github,Api,Web Development,Hubspot,Artificial Intelligence,Artificial Intelligence,,,Ai Agent Development,,
+"Mobile App Developer with Postgres, Zapier, and  Integration for Fitness Coaching App",https://www.upwork.com/jobs/Mobile-App-Developer-with-Postgres-Zapier-and-span-class-highlight-span-Integration-for-Fitness-Coaching-App_~021912713465527757052/?referrer_url_path=/nx/search/jobs/,AI,Fixed,,,,,8000.0,8000.0,"We are seeking a highly skilled mobile app developer to build a fitness coaching app for our fitness company. The app will collect and analyze user data to deliver personalized coaching recommendations. The project requires integration with Postgres for data management, Zapier for workflow automation, and  for advanced data analysis and recommendations. The app must be user-friendly, secure, and compliant with data protection regulations due to the sensitive health data involved.",Artificial Intelligence,,Android,Ios,User Profile Creation,,,,,,,
+Experienced Python Mentor & Developer for Real-World Project Collaboration,https://www.upwork.com/jobs/Experienced-Python-Mentor-Developer-for-Real-World-Project-Collaboration_~021910007969987822501/?referrer_url_path=/nx/search/jobs/,AI,Hourly,20.0,40.0,30.0,18.0,,16200.0,"I’m looking to level up my Python programming skills by working on a series of hands-on, real-world projects (small to medium-sized, with the potential to scale to enterprise-level applications). 
+Also Gen, machine learning, data science stuff. This is mostly for education and training.
+
+Real-World Experience: Build a complete, deployable Python applications
+
+Best Practices & Tools: Utilize version control (Git/GitHub), automated testing, proper documentation, and agile methodologies to mirror an enterprise setting.
+
+Mentorship: Work closely with an experienced Python developer who can guide me through architectural decisions, coding best practices, debugging techniques, and ultimately help me create a polished final product.
+
+This should is not supposed to be a difficult assignment, more of a teaching assignment for me.",Artificial Intelligence,Python,C++,Machine Learning,Llm Prompt Engineering,,,,,Ai Agent Development,,
+Consultant Wanted – High-Ticket Offer Strategy & Business Partnership Opportunity,https://www.upwork.com/jobs/span-class-highlight-span-Consultant-Wanted-High-Ticket-Offer-Strategy-amp-Business-Partnership-Opportunity_~021908239890587973318/?referrer_url_path=/nx/search/jobs/,AI,Hourly,35.0,50.0,30.0,24.0,,30600.0,"🚀  Consultant Wanted – High-Ticket Offer Strategy & Business Partnership Opportunity
+
+Are you an  expert and strategic thinker with a talent for crafting irresistible high-ticket offers? Do you want more than just another consulting gig—an opportunity to become a partner in a growing -driven business? If so, this is for you!
+
+We’re looking for a high-level  Consultant to refine and optimize a premium  offer that will dominate the market. This is not just a project—it’s a chance to be part of something big.
+
+What You’ll Do:
+🔍 Analyze & Optimize: Enhance our  offer to maximize its market appeal and conversion potential.
+📊 Market Research & Competitive Analysis: Identify gaps, opportunities, and ways to stand out.
+💡 Strategic Positioning: Provide expert insights to create a high-converting, high-value offer.
+🤝 Business Partnership Potential: Prove your expertise, and you could secure a long-term role in the company.
+
+What’s In It for You?
+💰 $35K-$50K Salary – Competitive pay with room to grow.
+⚡ Fast-Paced & High-Impact Work – Influence a cutting-edge -driven initiative.
+🚀 Future Partnership Potential – A real opportunity to become a key player in the business.
+📈 Exciting Growth Trajectory – Be part of a team that values innovation, strategy, and results.
+
+We’re looking for visionary experts who can deliver immediate impact and long-term value. If you’re ready to shape the future of -driven business and secure a potential partnership, let’s talk.
+
+📩 Apply Now & Let’s Build Something Revolutionary Together!",Artificial Intelligence,Marketing Strategy,Price & Quote Negotiation,,,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+Contract Senior Software Engineer for Blackboard LMS Integration,https://www.upwork.com/jobs/Contract-Senior-Software-Engineer-for-Blackboard-LMS-Integration_~021904632441218804591/?referrer_url_path=/nx/search/jobs/,AI,Hourly,70.0,85.0,30.0,8.0,,18600.0,"MathGPT. is on a mission to revolutionize teaching and learning through cutting-edge Generative . We’ve developed one of the most advanced  products for Math education—helping students learn more effectively while enabling instructors to teach with confidence. Our platform, GELATO, powers MathGPT. and will soon expand beyond Math to include STEM, Business, and more. 
+
+We are seeking a Contract Senior Software Engineer with 5+ years of LMS integration experience, specializing in Blackboard, for a contracting position that can last up to 1 year (with the possibility of extension) with a competitive hourly rate and an additional bonus for timely project delivery. You’ll work with a world-class team of technology industry veterans to create an  education product that students love and instructors trust. In this role, you will work with the team to design, build, and optimize the critical integration points between MathGPT. and Blackboard, for a frictionless user experience between Blackboard and MathGPT..
+
+- Deep Linking: Enable direct access to specific MathGPT. features or content from within Blackboard, streamlining instructor and student navigation.
+- Embedded MathGPT.: Integrate our platform’s components within the Blackboard interface, ensuring performance, security, and a consistent UX.
+- Grade Return: Build features to capture and return grades from MathGPT.-based assessments back into Blackboard’s gradebook, maintaining data integrity and accuracy.
+- Performance & Reliability: Monitor and optimize system performance, proactively addressing bottlenecks and ensuring high availability.
+- Security & Compliance: Adhere to FERPA, GDPR, and other relevant standards to protect sensitive student and instructor data.
+- Collaboration & Leadership: Serve as the Blackboard integration expert, collaborate with cross-functional teams, and offer guidance on best practices for security, compliance, and performance.
+
+
+You Should Have:
+- Extensive LMS Integration Experience: At least 5+ years of hands-on experience integrating LMS platforms, with 3+ years specifically focused on Blackboard.
+- Technical Proficiency: Strong in one or more languages: Python, JavaScript/TypeScript.
+- Familiarity with web services (REST) and e-learning standards (LTI, SCORM).
+- Working knowledge of cloud platforms (AWS) and CI/CD pipelines.
+- Comfort with SQL/NoSQL databases and data modeling best practices.
+
+Extra Bonus For:
+- Other LMS Platforms: Integration experience with other leading LMS platforms (Canvas, Brightspace, Moodle)
+- Gen  & ML: Exposure to LLMs and machine learning concepts.
+- Performance Tuning & Monitoring: Experience in advanced monitoring and troubleshooting frameworks.",Artificial Intelligence,Api Integration,Python,Web Application,Lms Plugin,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,,,
+"Entrepreneurial, Customer Friendly, Very Senior React//JS/DB Dev for Christian Focused Project",https://www.upwork.com/jobs/Entrepreneurial-Customer-Friendly-Very-Senior-React-span-class-highlight-span-Dev-for-Christian-Focused-Project_~021881759394918283932/?referrer_url_path=/nx/search/jobs/,AI,Hourly,65.0,85.0,30.0,24.0,,54000.0,"We are looking for a unique person.  
+
+Entrepreneurial.  This is because we are planning on doing product development for a content management platform in the Christian space.
+
+Humble. We serve customers with custom software development, and this person must be able to easily communicate with customers without being arrogant about their own amazing skills.
+
+Highly Skilled.  This project is not for your average developer.  This will require senior-level dev skills that have been honed over time with experience.  Thinking out of the box to get things done is important.  A willingness to use tools and not code everything by hand is great, but this is a challenging project.  You have to know your speed and estimate projects well so the customer expectations can be correctly set.  You MUST have solid experience using  for app development.
+
+Customer Friendly.  This means you are not your ordinary developer but can have an intelligent conversation with a customer, able to have business level conversations respectfully.
+
+Responsible. Freelancers are able to pick up work and drop work as they please.  Its part of the allure of being a freelancer.  But we need someone who communicates well and will stay committed to a project. Dropping a project in the middle simply because it is hard, or you have more interesting things to do is not responsible.  We love working with great people who are committed to working hard, even when it is challenging.
+
+Bleeding Edge Practical. We love pushing the envelope with our work, but we have to do it in ways that are sustainable, don't waste money, and can be supported long term.
+
+Customer Passionate. You love what you do, and you love serving customers with your skills. We take customer success very seriously.
+
+Capable of Leading.  We have a team of coders you may be overseeing on projects for other tasks.  Being able to be a respected leader is important.
+
+We are developing new apps from the ground up for ourselves and our customers.  We are a marketing agency, but migrating more and more into mobile app and web app development.
+
+Please please please, do not respond to this if you are a company (unless you are a company of 1).  Also, do not fake it on the above requirements.  If you don't match, it will be obvious really quick and it will be wasted time for all of us.  Please do not respond to this using an -generated response (we see it a lot and can usually spot them ... so far anyway).  Please do not respond if you are just going to sub out the work to someone else (we immediately fire and report them here when it happens).
+ 
+Yes, these requirements are challenging.  They are important to our culture and the customers we serve, so please take them seriously.",Artificial Intelligence,Web Application,Database Architecture,Next.Js,Javascript,Artificial Intelligence,,,,Ai Development,,
